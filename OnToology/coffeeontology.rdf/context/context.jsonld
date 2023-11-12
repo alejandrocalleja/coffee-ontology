@@ -1,0 +1,575 @@
+{
+  "@context" : {
+    "NCBITaxon_genus" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_genus"
+    },
+    "hasFarmingRequirement" : {
+      "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRequirement",
+      "@type" : "@id"
+    },
+    "NCBITaxon_91827" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_91827"
+    },
+    "countryCode" : {
+      "@id" : "https://www.geonames.org/ontology#countryCode"
+    },
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
+    },
+    "cpp_step" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_step"
+    },
+    "QuantityValue" : {
+      "@id" : "http://qudt.org/schema/qudt/QuantityValue"
+    },
+    "Meter" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Meter"
+    },
+    "Coffea_canephora_Pierre_Ex_Froenher" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher"
+    },
+    "Unit" : {
+      "@id" : "https://qudt.org/schema/qudt/Unit"
+    },
+    "NCBITaxon_subcohort" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subcohort"
+    },
+    "term_status" : {
+      "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"
+    },
+    "Coffee_Niaouli" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffee_Niaouli"
+    },
+    "semanticRelation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation",
+      "@type" : "@id"
+    },
+    "colloquialName" : {
+      "@id" : "https://www.geonames.org/ontology#colloquialName"
+    },
+    "wasGeneratedBy" : {
+      "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+      "@type" : "@id"
+    },
+    "NCBITaxon_species" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "NCBITaxon_131567" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+    },
+    "Celsius" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Celsius"
+    },
+    "NCBITaxon_superphylum" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superphylum"
+    },
+    "NCBITaxon_subclass" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subclass"
+    },
+    "hasExactSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+    },
+    "NCBITaxon_13443" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13443"
+    },
+    "NCBITaxon_subspecies" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subspecies"
+    },
+    "Coffee_Uganda" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffee_Uganda"
+    },
+    "NCBITaxon_78536" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_78536"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "NCBITaxon_series" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_series"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "MultiStep" : {
+      "@id" : "http://purl.org/net/p-plan#MultiStep"
+    },
+    "Milimeter" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Milimeter"
+    },
+    "quantityValue" : {
+      "@id" : "http://qudt.org/schema/qudt/quantityValue",
+      "@type" : "@id"
+    },
+    "NCBITaxon_superfamily" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superfamily"
+    },
+    "NCBITaxon_49373" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49373"
+    },
+    "NCBITaxon_71240" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71240"
+    },
+    "Altitude" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Altitude"
+    },
+    "NCBITaxon_24966" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_24966"
+    },
+    "coffea_farming_optimalTemperature" : {
+      "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature"
+    },
+    "NCBITaxon_superclass" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superclass"
+    },
+    "Coffea_arabica_var._typica" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica"
+    },
+    "GeonamesFeature" : {
+      "@id" : "https://www.geonames.org/ontology#GeonamesFeature"
+    },
+    "parentADM1" : {
+      "@id" : "https://www.geonames.org/ontology#parentADM1",
+      "@type" : "@id"
+    },
+    "long" : {
+      "@id" : "https://www.geonames.org/ontology#long"
+    },
+    "Coffea_barako" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffea_barako"
+    },
+    "NCBITaxon_58023" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58023"
+    },
+    "Feature" : {
+      "@id" : "http://geovocab.org/spatial#Feature"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "NCBITaxon_subgenus" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subgenus"
+    },
+    "historyNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#historyNote"
+    },
+    "officialName" : {
+      "@id" : "https://www.geonames.org/ontology#officialName"
+    },
+    "Concept" : {
+      "@id" : "https://qudt.org/schema/qudt/qudt:Concept"
+    },
+    "qualifiedCardinality" : {
+      "@id" : "http://www.w3.org/2002/07/owl#qualifiedCardinality"
+    },
+    "NCBITaxon_varietas" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_varietas"
+    },
+    "cpp_bioentity_coffea" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity_coffea"
+    },
+    "NCBITaxon_family" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_family"
+    },
+    "NCBITaxon_35493" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_35493"
+    },
+    "Activity" : {
+      "@id" : "http://purl.org/net/p-plan#Activity"
+    },
+    "cpp_variable" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_variable"
+    },
+    "region_any" : {
+      "@id" : "http://w3id.org/def/coffeeontology#region_any"
+    },
+    "used" : {
+      "@id" : "http://www.w3.org/ns/prov#used",
+      "@type" : "@id"
+    },
+    "NCBITaxon_order" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_order"
+    },
+    "Temperature" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Temperature"
+    },
+    "region_subtropical" : {
+      "@id" : "http://w3id.org/def/coffeeontology#region_subtropical"
+    },
+    "cpp_bioentity_coffee" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity_coffee"
+    },
+    "parentADM2" : {
+      "@id" : "https://www.geonames.org/ontology#parentADM2",
+      "@type" : "@id"
+    },
+    "cpp_step_initial" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_step_initial"
+    },
+    "_species_group" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_species_group"
+    },
+    "NCBITaxon_superorder" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superorder"
+    },
+    "NCBITaxon_cohort" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_cohort"
+    },
+    "NCBITaxon_superkingdom" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superkingdom"
+    },
+    "featureClass" : {
+      "@id" : "https://www.geonames.org/ontology#featureClass",
+      "@type" : "@id"
+    },
+    "NCBITaxon_kingdom" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_kingdom"
+    },
+    "NCBITaxon_33090" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+    },
+    "hasRelatedSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+    },
+    "notation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#notation"
+    },
+    "NCBITaxon_49390" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49390"
+    },
+    "Step" : {
+      "@id" : "http://purl.org/net/p-plan#Step"
+    },
+    "NCBITaxon_71274" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71274"
+    },
+    "NCBITaxon_3398" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3398"
+    },
+    "cpp_variable_initial" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_variable_initial"
+    },
+    "Precipitation" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Precipitation"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "NCBITaxon_section" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_section"
+    },
+    "hasOutputVar" : {
+      "@id" : "http://purl.org/net/p-plan#hasOutputVar",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "https://www.geonames.org/ontology#name"
+    },
+    "postalCode" : {
+      "@id" : "https://www.geonames.org/ontology#postalCode"
+    },
+    "Coffea_excelsa" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffea_excelsa"
+    },
+    "isStepOfPlan" : {
+      "@id" : "http://purl.org/net/p-plan#isStepOfPlan",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "NCBITaxon_131221" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131221"
+    },
+    "applicableUnit" : {
+      "@id" : "http://qudt.org/schema/qudt/applicableUnit",
+      "@type" : "@id"
+    },
+    "NCBITaxon_subkingdom" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subkingdom"
+    },
+    "wasDerivedFrom" : {
+      "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+      "@type" : "@id"
+    },
+    "NCBITaxon_subfamily" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subfamily"
+    },
+    "isPrecededBy" : {
+      "@id" : "http://purl.org/net/p-plan#isPrecededBy",
+      "@type" : "@id"
+    },
+    "NCBITaxon_infraorder" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_infraorder"
+    },
+    "geonamesID" : {
+      "@id" : "https://www.geonames.org/ontology#geonamesID"
+    },
+    "parentADM4" : {
+      "@id" : "https://www.geonames.org/ontology#parentADM4",
+      "@type" : "@id"
+    },
+    "Coffee_Kouilloi" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffee_Kouilloi"
+    },
+    "cpp_step_final" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_step_final"
+    },
+    "shortName" : {
+      "@id" : "https://www.geonames.org/ontology#shortName"
+    },
+    "NCBITaxon_4055" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4055"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "hasOBONamespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"
+    },
+    "coffea_farming_altitude" : {
+      "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_altitude"
+    },
+    "Quantity" : {
+      "@id" : "http://qudt.org/schema/qudt/Quantity"
+    },
+    "correspondsToStep" : {
+      "@id" : "http://purl.org/net/p-plan#correspondsToStep",
+      "@type" : "@id"
+    },
+    "QuantityKind" : {
+      "@id" : "http://qudt.org/schema/qudt/QuantityKind"
+    },
+    "NCBITaxon_parvorder" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_parvorder"
+    },
+    "isSubPlanOfPlan" : {
+      "@id" : "http://purl.org/net/p-plan#isSubPlanOfPlan",
+      "@type" : "@id"
+    },
+    "hasFarmingRegion" : {
+      "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRegion",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "Plan" : {
+      "@id" : "http://purl.org/net/p-plan#Plan"
+    },
+    "Plantae" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Plantae"
+    },
+    "coffea_farming_optimalAnualRainingAverage" : {
+      "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage"
+    },
+    "correspondsToVariable" : {
+      "@id" : "http://purl.org/net/p-plan#correspondsToVariable",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "NCBITaxon_58024" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58024"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/ns/prov#definition"
+    },
+    "population" : {
+      "@id" : "https://www.geonames.org/ontology#population",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "NCBITaxon_1968429" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1968429"
+    },
+    "parentADM3" : {
+      "@id" : "https://www.geonames.org/ontology#parentADM3",
+      "@type" : "@id"
+    },
+    "hasSynonymType" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType"
+    },
+    "hasAlternativeId" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"
+    },
+    "NCBITaxon_3193" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3193"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "cpp_bioentity" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "NCBITaxon_13442" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13442"
+    },
+    "NCBITaxon_1968428" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1968428"
+    },
+    "NCBITaxon_1437201" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1437201"
+    },
+    "coffea_farming_region" : {
+      "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region"
+    },
+    "NCBITaxon_infraclass" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_infraclass"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "lat" : {
+      "@id" : "https://www.geonames.org/ontology#lat"
+    },
+    "isInputVarOf" : {
+      "@id" : "http://purl.org/net/p-plan#isInputVarOf",
+      "@type" : "@id"
+    },
+    "_species_subgroup" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_species_subgroup"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "cpp_percolado" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_percolado"
+    },
+    "hasUnit" : {
+      "@id" : "https://qudt.org/schema/qudt/hasUnit",
+      "@type" : "@id"
+    },
+    "locatedIn" : {
+      "@id" : "https://www.geonames.org/ontology#locatedIn",
+      "@type" : "@id"
+    },
+    "NCBITaxon_forma" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_forma"
+    },
+    "Variable" : {
+      "@id" : "http://purl.org/net/p-plan#Variable"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Entity" : {
+      "@id" : "http://www.w3.org/ns/prov#Entity"
+    },
+    "NCBITaxon_1437183" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1437183"
+    },
+    "isOutputVarOf" : {
+      "@id" : "http://purl.org/net/p-plan#isOutputVarOf",
+      "@type" : "@id"
+    },
+    "NCBITaxon_2759" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    },
+    "NCBITaxon_phylum" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_phylum"
+    },
+    "SpatialThing" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"
+    },
+    "has_rank" : {
+      "@id" : "http://w3id.org/def/coffeeontology#has_rank",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "NCBITaxon_subsection" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subsection"
+    },
+    "NCBITaxon_subphylum" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subphylum"
+    },
+    "hasDbXref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+    },
+    "License" : {
+      "@id" : "http://creativecommons.org/ns#License"
+    },
+    "region_ecuatorial" : {
+      "@id" : "http://w3id.org/def/coffeeontology#region_ecuatorial"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "historicalName" : {
+      "@id" : "https://www.geonames.org/ontology#historicalName"
+    },
+    "NCBITaxon_91888" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_91888"
+    },
+    "Coffea_arabica_var._bourbon_Rodr._ex_Choussy" : {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffea_arabica_var._bourbon_Rodr._ex_Choussy"
+    },
+    "coffea_farming_country" : {
+      "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_country"
+    },
+    "cpp_variable_final" : {
+      "@id" : "http://w3id.org/def/coffeeontology#cpp_variable_final"
+    },
+    "NCBITaxon_tribe" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_tribe"
+    },
+    "isVariableOfPlan" : {
+      "@id" : "http://purl.org/net/p-plan#isVariableOfPlan",
+      "@type" : "@id"
+    },
+    "isDecomposedAsPlan" : {
+      "@id" : "http://purl.org/net/p-plan#isDecomposedAsPlan",
+      "@type" : "@id"
+    },
+    "coffee_production_plan" : {
+      "@id" : "http://w3id.org/def/coffeeontology#coffee_production_plan"
+    },
+    "alternateName" : {
+      "@id" : "https://www.geonames.org/ontology#alternateName"
+    },
+    "NCBITaxon_suborder" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_suborder"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "NCBITaxon_169640" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_169640"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "hasInputVar" : {
+      "@id" : "http://purl.org/net/p-plan#hasInputVar",
+      "@type" : "@id"
+    },
+    "hasQuantityKind" : {
+      "@id" : "http://qudt.org/schema/qudt/hasQuantityKind",
+      "@type" : "@id"
+    },
+    "NCBITaxon_class" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_class"
+    },
+    "NCBITaxon_subtribe" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subtribe"
+    },
+    "_taxonomic_rank" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+    },
+    "NCBITaxon_169618" : {
+      "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_169618"
+    }
+  }
+}
