@@ -1,0 +1,1552 @@
+<http://w3id.org/def/coffeeontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://w3id.org/def/coffeeontology> <http://www.w3.org/2002/07/owl#versionIRI> <http://w3id.org/def/coffeeontology/1.0.0> .
+<http://w3id.org/def/coffeeontology> <http://creativecommons.org/ns#License> "https://creativecommons.org/licenses/by/4.0/" .
+<http://w3id.org/def/coffeeontology> <http://purl.org/dc/terms/contributor> "Alejandro Calleja Herrador (version 1.0.0)" .
+<http://w3id.org/def/coffeeontology> <http://purl.org/dc/terms/creator> "Alejandro Calleja Herrador" .
+<http://w3id.org/def/coffeeontology> <http://purl.org/dc/terms/description> "The Coffee Ontology provides elements for coffee classification, description of coffee creation processes and farming requirements and considerations."@en .
+<http://w3id.org/def/coffeeontology> <http://purl.org/dc/terms/issued> "2023-11-14" .
+<http://w3id.org/def/coffeeontology> <http://purl.org/dc/terms/title> "La Ontología del Café"@es .
+<http://w3id.org/def/coffeeontology> <http://purl.org/dc/terms/title> "The Coffee Ontology"@en .
+<http://w3id.org/def/coffeeontology> <http://purl.org/vocab/vann/preferredNamespacePrefix> "cfe" .
+<http://w3id.org/def/coffeeontology> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.semanticweb.org/coffee-ontology#" .
+<http://w3id.org/def/coffeeontology> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0.0 - 2023-11-14" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#License
+<http://creativecommons.org/ns#License> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.obolibrary.org/obo/ncbitaxon#has_rank
+<http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
+<http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasDbXref
+<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
+<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.geneontology.org/formats/oboInOwl#hasSynonymType
+<http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#qualifiedCardinality
+<http://www.w3.org/2002/07/owl#qualifiedCardinality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#historyNote
+<http://www.w3.org/2004/02/skos/core#historyNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/prov#definition
+<http://www.w3.org/ns/prov#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/net/p-plan#correspondsToStep
+<http://purl.org/net/p-plan#correspondsToStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/net/p-plan#correspondsToVariable
+<http://purl.org/net/p-plan#correspondsToVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/net/p-plan#hasInputVar
+<http://purl.org/net/p-plan#hasInputVar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/p-plan#hasInputVar> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/p-plan#isInputVarOf> .
+<http://purl.org/net/p-plan#hasInputVar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Step> .
+<http://purl.org/net/p-plan#hasInputVar> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Variable> .
+<http://purl.org/net/p-plan#hasInputVar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/p-plan#> .
+<http://purl.org/net/p-plan#hasInputVar> <http://www.w3.org/2000/01/rdf-schema#label> "hasInputVar"@en .
+<http://purl.org/net/p-plan#hasInputVar> <http://www.w3.org/ns/prov#definition> "p-plan:hasInputVar binds a p-plan:Step to the p-plan:Variable that takes as input for the planned execution"@en .
+# 
+# http://purl.org/net/p-plan#hasOutputVar
+<http://purl.org/net/p-plan#hasOutputVar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/p-plan#hasOutputVar> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/net/p-plan#isOutputVarOf> .
+<http://purl.org/net/p-plan#hasOutputVar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Step> .
+<http://purl.org/net/p-plan#hasOutputVar> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Variable> .
+<http://purl.org/net/p-plan#hasOutputVar> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/p-plan#> .
+<http://purl.org/net/p-plan#hasOutputVar> <http://www.w3.org/2000/01/rdf-schema#label> "hasOutputVar"@en .
+<http://purl.org/net/p-plan#hasOutputVar> <http://www.w3.org/ns/prov#definition> "p-plan:hasOutputVar binds a p-plan:Step to the p-plan:Variable that will be produced as output in the planned execution"@en .
+# 
+# http://purl.org/net/p-plan#isDecomposedAsPlan
+<http://purl.org/net/p-plan#isDecomposedAsPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/p-plan#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#MultiStep> .
+<http://purl.org/net/p-plan#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Plan> .
+<http://purl.org/net/p-plan#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/p-plan#> .
+<http://purl.org/net/p-plan#isDecomposedAsPlan> <http://www.w3.org/2000/01/rdf-schema#label> "isDecomposedAsPlan"@en .
+<http://purl.org/net/p-plan#isDecomposedAsPlan> <http://www.w3.org/ns/prov#definition> "The p-plan:isDecomposedAsPlan relationship binds a p-plan:MultiStep to the p-plan:Plan holding the definition of that step. That is, p-plan:isDecomposedAsPlan links the MultiStep to the Plan sptecification where it is decomposed."@en .
+# 
+# http://purl.org/net/p-plan#isInputVarOf
+<http://purl.org/net/p-plan#isInputVarOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/p-plan#isInputVarOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Variable> .
+<http://purl.org/net/p-plan#isInputVarOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Step> .
+<http://purl.org/net/p-plan#isInputVarOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/p-plan#> .
+<http://purl.org/net/p-plan#isInputVarOf> <http://www.w3.org/2000/01/rdf-schema#label> "isInputVarOf"@en .
+<http://purl.org/net/p-plan#isInputVarOf> <http://www.w3.org/ns/prov#definition> "p-plan:isInputVarOf links an input variable of a step to the step."@en .
+# 
+# http://purl.org/net/p-plan#isOutputVarOf
+<http://purl.org/net/p-plan#isOutputVarOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/p-plan#isOutputVarOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://purl.org/net/p-plan#isOutputVarOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Variable> .
+<http://purl.org/net/p-plan#isOutputVarOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Step> .
+<http://purl.org/net/p-plan#isOutputVarOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/p-plan#> .
+<http://purl.org/net/p-plan#isOutputVarOf> <http://www.w3.org/2000/01/rdf-schema#label> "isOutputVarOf"@en .
+<http://purl.org/net/p-plan#isOutputVarOf> <http://www.w3.org/ns/prov#definition> "p-plan:isOutputVarOf is intended to link an output variable of a step to the step."@en .
+# 
+# http://purl.org/net/p-plan#isPrecededBy
+<http://purl.org/net/p-plan#isPrecededBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/p-plan#isPrecededBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://purl.org/net/p-plan#isPrecededBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Step> .
+<http://purl.org/net/p-plan#isPrecededBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Step> .
+<http://purl.org/net/p-plan#isPrecededBy> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/p-plan#> .
+<http://purl.org/net/p-plan#isPrecededBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "Property that asserts which Step preceeds the current one. "@en .
+<http://purl.org/net/p-plan#isPrecededBy> <http://www.w3.org/2000/01/rdf-schema#label> "isPrecededBy"@en .
+# 
+# http://purl.org/net/p-plan#isStepOfPlan
+<http://purl.org/net/p-plan#isStepOfPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/p-plan#isStepOfPlan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Step> .
+<http://purl.org/net/p-plan#isStepOfPlan> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Plan> .
+<http://purl.org/net/p-plan#isStepOfPlan> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/p-plan#> .
+<http://purl.org/net/p-plan#isStepOfPlan> <http://www.w3.org/2000/01/rdf-schema#label> "isStepOfPlan"@en .
+<http://purl.org/net/p-plan#isStepOfPlan> <http://www.w3.org/ns/prov#definition> "p-plan:isStepOfPlan links a p-plan:Step to the p-plan:Plan which it corresponds to."@en .
+# 
+# http://purl.org/net/p-plan#isSubPlanOfPlan
+<http://purl.org/net/p-plan#isSubPlanOfPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/p-plan#isSubPlanOfPlan> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://purl.org/net/p-plan#isSubPlanOfPlan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Plan> .
+<http://purl.org/net/p-plan#isSubPlanOfPlan> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Plan> .
+<http://purl.org/net/p-plan#isSubPlanOfPlan> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/p-plan#> .
+<http://purl.org/net/p-plan#isSubPlanOfPlan> <http://www.w3.org/2000/01/rdf-schema#label> "isSubPlanOfPlan"@en .
+<http://purl.org/net/p-plan#isSubPlanOfPlan> <http://www.w3.org/ns/prov#definition> "A p-plan:Plan may be a subplan of another bigger p-plan:Plan. p-plan:isSubPlanOfPlan is used to state the link among the two different plans. Note that if p1 is a p-plan:subPlan of p2, p1will not necessarily be a step of p2. A multistep will represent p1 in p2, and link to p1 with the p-plan.hasStepDecomposition relationship."@en .
+# 
+# http://purl.org/net/p-plan#isVariableOfPlan
+<http://purl.org/net/p-plan#isVariableOfPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/net/p-plan#isVariableOfPlan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/p-plan#Variable> .
+<http://purl.org/net/p-plan#isVariableOfPlan> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/p-plan#Plan> .
+<http://purl.org/net/p-plan#isVariableOfPlan> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/p-plan#> .
+<http://purl.org/net/p-plan#isVariableOfPlan> <http://www.w3.org/2000/01/rdf-schema#label> "isVariableofPlan"@en .
+<http://purl.org/net/p-plan#isVariableOfPlan> <http://www.w3.org/ns/prov#definition> "p-plan:IsVariableOfPlan binds a p-plan:Variable to the p-plan:Plan it corresponds to."@en .
+# 
+# http://qudt.org/schema/qudt/applicableUnit
+<http://qudt.org/schema/qudt/applicableUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://qudt.org/schema/qudt/hasQuantityKind
+<http://qudt.org/schema/qudt/hasQuantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://qudt.org/schema/qudt/hasQuantityKind> <http://www.w3.org/2000/01/rdf-schema#domain> <http://qudt.org/schema/qudt/Quantity> .
+<http://qudt.org/schema/qudt/hasQuantityKind> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityKind> .
+# 
+# http://qudt.org/schema/qudt/quantityValue
+<http://qudt.org/schema/qudt/quantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://qudt.org/schema/qudt/quantityValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://qudt.org/schema/qudt/Quantity> .
+<http://qudt.org/schema/qudt/quantityValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityValue> .
+# 
+# http://w3id.org/def/coffeeontology#hasFarmingRegion
+<http://w3id.org/def/coffeeontology#hasFarmingRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://w3id.org/def/coffeeontology#hasFarmingRegion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://w3id.org/def/coffeeontology#hasFarmingRequirement
+<http://w3id.org/def/coffeeontology#hasFarmingRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://w3id.org/def/coffeeontology#has_rank
+<http://w3id.org/def/coffeeontology#has_rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core> .
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/2000/01/rdf-schema#label> "is in scheme"@en .
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/2004/02/skos/core#definition> "Relates a resource (for example a concept) to a concept scheme in which it is included."@en .
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/2004/02/skos/core#scopeNote> "A concept may be a member of more than one concept scheme."@en .
+# 
+# http://www.w3.org/2004/02/skos/core#semanticRelation
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core> .
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "is in semantic relation with"@en .
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2004/02/skos/core#definition> "Links a concept to a concept related by meaning."@en .
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2004/02/skos/core#scopeNote> "This property should not be used directly, but as a super-property for all properties denoting a relationship of meaning between concepts."@en .
+# 
+# http://www.w3.org/ns/prov#used
+<http://www.w3.org/ns/prov#used> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/prov#used> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Activity> .
+<http://www.w3.org/ns/prov#used> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Entity> .
+<http://www.w3.org/ns/prov#used> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> .
+# 
+# http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Entity> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> .
+# 
+# http://www.w3.org/ns/prov#wasGeneratedBy
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Entity> .
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Activity> .
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> .
+# 
+# https://qudt.org/schema/qudt/hasUnit
+<https://qudt.org/schema/qudt/hasUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://qudt.org/schema/qudt/hasUnit> <http://www.w3.org/2000/01/rdf-schema#range> <https://qudt.org/schema/qudt/Unit> .
+<https://qudt.org/schema/qudt/hasUnit> <http://purl.org/dc/terms/description> "This property relates a system of units with a unit of measure that is either a) defined by the system, or b) accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system. Systems of units may distinguish between base and derived units. Base units are the units which measure the base quantities for the corresponding system of quantities. The base units are used to define units for all other quantities as products of powers of the base units. Such units are called derived units for the system."@en .
+# 
+# https://www.geonames.org/ontology#featureClass
+<https://www.geonames.org/ontology#featureClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://www.geonames.org/ontology#locatedIn
+<https://www.geonames.org/ontology#locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://www.geonames.org/ontology#locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#locatedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the subject resource is located in the object feature"@en .
+<https://www.geonames.org/ontology#locatedIn> <http://www.w3.org/2000/01/rdf-schema#label> "located in"@en .
+# 
+# https://www.geonames.org/ontology#parentADM1
+<https://www.geonames.org/ontology#parentADM1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://www.geonames.org/ontology#parentADM2
+<https://www.geonames.org/ontology#parentADM2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://www.geonames.org/ontology#parentADM3
+<https://www.geonames.org/ontology#parentADM3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://www.geonames.org/ontology#parentADM4
+<https://www.geonames.org/ontology#parentADM4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#notation
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to store the values of feature codes"@en .
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core> .
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2000/01/rdf-schema#label> "notation"@en .
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2004/02/skos/core#definition> "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme."@en .
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2004/02/skos/core#scopeNote> "By convention, skos:notation is used with a typed literal in the object position of the triple."@en .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# https://www.geonames.org/ontology#alternateName
+<https://www.geonames.org/ontology#alternateName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#alternateName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.geonames.org/ontology#Feature> .
+# 
+# https://www.geonames.org/ontology#colloquialName
+<https://www.geonames.org/ontology#colloquialName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#colloquialName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.geonames.org/ontology#alternateName> .
+<https://www.geonames.org/ontology#colloquialName> <http://www.w3.org/2000/01/rdf-schema#label> "colloquial name"@en .
+# 
+# https://www.geonames.org/ontology#countryCode
+<https://www.geonames.org/ontology#countryCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#countryCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#countryCode> <http://www.w3.org/2000/01/rdf-schema#comment> "A two letters country code in the ISO 3166 list"@en .
+<https://www.geonames.org/ontology#countryCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The countryCode value for a Geoname Feature is equal to the countryCode value of the parentCountry value."@en .
+<https://www.geonames.org/ontology#countryCode> <http://www.w3.org/2000/01/rdf-schema#label> "ISO country code"@en .
+# 
+# https://www.geonames.org/ontology#geonamesID
+<https://www.geonames.org/ontology#geonamesID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#geonamesID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/identifier> .
+<https://www.geonames.org/ontology#geonamesID> <http://www.w3.org/2000/01/rdf-schema#label> "geonames identifier"@en .
+<https://www.geonames.org/ontology#geonamesID> <http://www.w3.org/2004/02/skos/core#historyNote> "Added in version 3.1"@en .
+# 
+# https://www.geonames.org/ontology#historicalName
+<https://www.geonames.org/ontology#historicalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#historicalName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.geonames.org/ontology#alternateName> .
+<https://www.geonames.org/ontology#historicalName> <http://www.w3.org/2000/01/rdf-schema#label> "historical name"@en .
+# 
+# https://www.geonames.org/ontology#lat
+<https://www.geonames.org/ontology#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#lat> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#lat> <http://www.w3.org/2000/01/rdf-schema#comment> "latitude of a feature (decimal degrees)" .
+<https://www.geonames.org/ontology#lat> <http://www.w3.org/2000/01/rdf-schema#label> "latitude" .
+<https://www.geonames.org/ontology#lat> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> .
+# 
+# https://www.geonames.org/ontology#long
+<https://www.geonames.org/ontology#long> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#long> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#long> <http://www.w3.org/2000/01/rdf-schema#comment> "longitude of a feature (decimal degrees)" .
+<https://www.geonames.org/ontology#long> <http://www.w3.org/2000/01/rdf-schema#label> "longitude" .
+<https://www.geonames.org/ontology#long> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2003/01/geo/wgs84_pos#long> .
+# 
+# https://www.geonames.org/ontology#name
+<https://www.geonames.org/ontology#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#name> <http://www.w3.org/2000/01/rdf-schema#comment> "The main international name of a feature. The value has no xml:lang tag."@en .
+<https://www.geonames.org/ontology#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+# 
+# https://www.geonames.org/ontology#officialName
+<https://www.geonames.org/ontology#officialName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#officialName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#officialName> <http://www.w3.org/2000/01/rdf-schema#comment> "A name in an official local language"@en .
+<https://www.geonames.org/ontology#officialName> <http://www.w3.org/2000/01/rdf-schema#label> "official name"@en .
+# 
+# https://www.geonames.org/ontology#population
+<https://www.geonames.org/ontology#population> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#population> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#population> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://www.geonames.org/ontology#population> <http://www.w3.org/2000/01/rdf-schema#label> "population"@en .
+# 
+# https://www.geonames.org/ontology#postalCode
+<https://www.geonames.org/ontology#postalCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#postalCode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#postalCode> <http://www.w3.org/2000/01/rdf-schema#label> "postal code"@en .
+# 
+# https://www.geonames.org/ontology#shortName
+<https://www.geonames.org/ontology#shortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://www.geonames.org/ontology#shortName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://www.geonames.org/ontology#alternateName> .
+<https://www.geonames.org/ontology#shortName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#shortName> <http://www.w3.org/2000/01/rdf-schema#label> "short name"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://geovocab.org/spatial#Feature
+<http://geovocab.org/spatial#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://geovocab.org/spatial#Feature> <http://www.w3.org/2002/07/owl#equivalentClass> <https://www.geonames.org/ontology#Feature> .
+<http://geovocab.org/spatial#Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "A geographical feature, capable of holding spatial relations." .
+<http://geovocab.org/spatial#Feature> <http://www.w3.org/2000/01/rdf-schema#label> "Feature" .
+<http://geovocab.org/spatial#Feature> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_131221
+<http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_35493> .
+<http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_subphylum> .
+<http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "charophyte/embryophyte group" .
+<http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Charophyta/Embryophyta group" .
+<http://purl.obolibrary.org/obo/NCBITaxon_131221> <http://www.w3.org/2000/01/rdf-schema#label> "Streptophytina" .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_131221> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid1 <http://www.w3.org/2002/07/owl#annotatedTarget> "charophyte/embryophyte group" .
+_:genid1 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_131221> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid2 <http://www.w3.org/2002/07/owl#annotatedTarget> "Charophyta/Embryophyta group" .
+_:genid2 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_131567
+<http://purl.obolibrary.org/obo/NCBITaxon_131567> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_131567> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_131567> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_131567> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "biota" .
+<http://purl.obolibrary.org/obo/NCBITaxon_131567> <http://www.w3.org/2000/01/rdf-schema#label> "organismos celulares"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_131567> <http://www.w3.org/2000/01/rdf-schema#label> "cellular organisms" .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid3 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_131567> .
+_:genid3 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid3 <http://www.w3.org/2002/07/owl#annotatedTarget> "biota" .
+_:genid3 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_13442
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.w3.org/2002/07/owl#equivalentClass> <http://w3id.org/def/coffeeontology#cpp_bioentity_coffea> .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_169640> .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/def/coffeeontology#coffea_farming_region> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/def/coffeeontology#hasFarmingRegion> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_genus> .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "NCBITaxon:49384" .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "coffee" .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Psilanthus" .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.w3.org/2000/01/rdf-schema#comment> "Árbol de la familia de las rubiáceas, originario de Etiopía, de cuatro a seis metros de altura, con hojas opuestas, lanceoladas, persistentes y de un hermoso color verde, flores blancas y olorosas, parecidas a las del jazmín, y fruto en baya roja, cuya semilla es el café."@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_13442> <http://www.w3.org/2000/01/rdf-schema#label> "Coffea" .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid5 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_13442> .
+_:genid5 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid5 <http://www.w3.org/2002/07/owl#annotatedTarget> "coffee" .
+_:genid5 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid6 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_13442> .
+_:genid6 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid6 <http://www.w3.org/2002/07/owl#annotatedTarget> "Psilanthus" .
+_:genid6 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_13443
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_13442> .
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_species> .
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "arabica coffee" .
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "coffee" .
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.w3.org/2000/01/rdf-schema#comment> "La especie arábica es la más cultivada en el mundo. Un 60 % del área cafetalera mundial está cultivada en diferentes variedades y cultivares de café arábigo.\n\nEsta especie es originaria de Etiopía (antiguo Yemen) y se tienen datos de su cultivo desde hace 2000 años.\n\nLa especie arábica se caracteriza por ser una arbusto que alcanza hasta  8 metros de altura. Sus hojas son de color verde intenso y sus granos de color rojo o amarillo cuando maduran."@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Arábigo"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_13443> <http://www.w3.org/2000/01/rdf-schema#label> "Coffea arabica" .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid7 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_13443> .
+_:genid7 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid7 <http://www.w3.org/2002/07/owl#annotatedTarget> "arabica coffee" .
+_:genid7 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid8 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_13443> .
+_:genid8 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid8 <http://www.w3.org/2002/07/owl#annotatedTarget> "coffee" .
+_:genid8 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_1437183
+<http://purl.obolibrary.org/obo/NCBITaxon_1437183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437183> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_3398> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437183> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437183> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437183> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25249442" .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437183> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437183> <http://www.w3.org/2000/01/rdf-schema#label> "Mesangiospermae" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_1437201
+<http://purl.obolibrary.org/obo/NCBITaxon_1437201> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437201> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_91827> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437201> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437201> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437201> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_1437201> <http://www.w3.org/2000/01/rdf-schema#label> "Pentapetalae" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_169618
+<http://purl.obolibrary.org/obo/NCBITaxon_169618> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_169618> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_24966> .
+<http://purl.obolibrary.org/obo/NCBITaxon_169618> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_subfamily> .
+<http://purl.obolibrary.org/obo/NCBITaxon_169618> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_169618> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_169618> <http://www.w3.org/2000/01/rdf-schema#label> "Ixoroideae" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_169640
+<http://purl.obolibrary.org/obo/NCBITaxon_169640> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_169640> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_1968428> .
+<http://purl.obolibrary.org/obo/NCBITaxon_169640> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_tribe> .
+<http://purl.obolibrary.org/obo/NCBITaxon_169640> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_169640> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_169640> <http://www.w3.org/2000/01/rdf-schema#label> "Coffeeae" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_1968428
+<http://purl.obolibrary.org/obo/NCBITaxon_1968428> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968428> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_1968429> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968428> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968428> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968428> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968428> <http://www.w3.org/2000/01/rdf-schema#label> "Bertiereae - Coffeeae clade" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_1968429
+<http://purl.obolibrary.org/obo/NCBITaxon_1968429> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968429> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_169618> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968429> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968429> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968429> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_1968429> <http://www.w3.org/2000/01/rdf-schema#label> "Gardenieae complex" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_24966
+<http://purl.obolibrary.org/obo/NCBITaxon_24966> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_24966> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_4055> .
+<http://purl.obolibrary.org/obo/NCBITaxon_24966> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_family> .
+<http://purl.obolibrary.org/obo/NCBITaxon_24966> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_24966> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "madder family" .
+<http://purl.obolibrary.org/obo/NCBITaxon_24966> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_24966> <http://www.w3.org/2000/01/rdf-schema#comment> "Las rubiáceas (Rubiaceae) son una familia de plantas llamadas normalmente de la rubia, galio blanco, o familia del café."@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_24966> <http://www.w3.org/2000/01/rdf-schema#label> "Rubiáceas"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_24966> <http://www.w3.org/2000/01/rdf-schema#label> "Rubiaceae" .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid9 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_24966> .
+_:genid9 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid9 <http://www.w3.org/2002/07/owl#annotatedTarget> "madder family" .
+_:genid9 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_2759
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_131567> .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23020233" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30257078" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "eucaryotes" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "eukaryotes" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Eucarya" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Eucaryotae" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Eukarya" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Eukaryotae" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "eukaryotes" .
+<http://purl.obolibrary.org/obo/NCBITaxon_2759> <http://www.w3.org/2000/01/rdf-schema#label> "Eukaryota" .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid10 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_2759> .
+_:genid10 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid10 <http://www.w3.org/2002/07/owl#annotatedTarget> "eucaryotes" .
+_:genid10 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid11 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_2759> .
+_:genid11 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid11 <http://www.w3.org/2002/07/owl#annotatedTarget> "eukaryotes" .
+_:genid11 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid12 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_2759> .
+_:genid12 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid12 <http://www.w3.org/2002/07/owl#annotatedTarget> "Eucarya" .
+_:genid12 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_2759> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid13 <http://www.w3.org/2002/07/owl#annotatedTarget> "Eucaryotae" .
+_:genid13 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid14 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_2759> .
+_:genid14 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid14 <http://www.w3.org/2002/07/owl#annotatedTarget> "Eukarya" .
+_:genid14 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_2759> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid15 <http://www.w3.org/2002/07/owl#annotatedTarget> "Eukaryotae" .
+_:genid15 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid16 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_2759> .
+_:genid16 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid16 <http://www.w3.org/2002/07/owl#annotatedTarget> "eukaryotes" .
+_:genid16 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3193
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_131221> .
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "higher plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "land plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "land plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3193> <http://www.w3.org/2000/01/rdf-schema#label> "Embryophyta" .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid17 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_3193> .
+_:genid17 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid17 <http://www.w3.org/2002/07/owl#annotatedTarget> "higher plants" .
+_:genid17 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid18 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_3193> .
+_:genid18 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid18 <http://www.w3.org/2002/07/owl#annotatedTarget> "land plants" .
+_:genid18 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid19 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_3193> .
+_:genid19 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid19 <http://www.w3.org/2002/07/owl#annotatedTarget> "plants" .
+_:genid19 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid20 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_3193> .
+_:genid20 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid20 <http://www.w3.org/2002/07/owl#annotatedTarget> "land plants" .
+_:genid20 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_33090
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#Plantae> .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_subkingdom> .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:16248873" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:30257078" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Chlorophyta/Embryophyta group" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "chlorophyte/embryophyte group" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "green plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Chlorobionta" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Chloroplastida" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "green plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_33090> <http://www.w3.org/2000/01/rdf-schema#label> "Viridiplantae" .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid21 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_33090> .
+_:genid21 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid21 <http://www.w3.org/2002/07/owl#annotatedTarget> "Chlorophyta/Embryophyta group" .
+_:genid21 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid22 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_33090> .
+_:genid22 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid22 <http://www.w3.org/2002/07/owl#annotatedTarget> "chlorophyte/embryophyte group" .
+_:genid22 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid23 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_33090> .
+_:genid23 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid23 <http://www.w3.org/2002/07/owl#annotatedTarget> "green plants" .
+_:genid23 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid24 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_33090> .
+_:genid24 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid24 <http://www.w3.org/2002/07/owl#annotatedTarget> "Chlorobionta" .
+_:genid24 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid25 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_33090> .
+_:genid25 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid25 <http://www.w3.org/2002/07/owl#annotatedTarget> "Chloroplastida" .
+_:genid25 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid26 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_33090> .
+_:genid26 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid26 <http://www.w3.org/2002/07/owl#annotatedTarget> "green plants" .
+_:genid26 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_3398
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_58024> .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25249442" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "angiosperms" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "flowering plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Angiospermae" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Magnoliophyta" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "flowering plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_3398> <http://www.w3.org/2000/01/rdf-schema#label> "Magnoliopsida" .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid27 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_3398> .
+_:genid27 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid27 <http://www.w3.org/2002/07/owl#annotatedTarget> "angiosperms" .
+_:genid27 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid28 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_3398> .
+_:genid28 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid28 <http://www.w3.org/2002/07/owl#annotatedTarget> "flowering plants" .
+_:genid28 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid29 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_3398> .
+_:genid29 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid29 <http://www.w3.org/2002/07/owl#annotatedTarget> "Angiospermae" .
+_:genid29 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid30 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_3398> .
+_:genid30 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid30 <http://www.w3.org/2002/07/owl#annotatedTarget> "Magnoliophyta" .
+_:genid30 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid31 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_3398> .
+_:genid31 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid31 <http://www.w3.org/2002/07/owl#annotatedTarget> "flowering plants" .
+_:genid31 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_35493
+<http://purl.obolibrary.org/obo/NCBITaxon_35493> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_35493> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_33090> .
+<http://purl.obolibrary.org/obo/NCBITaxon_35493> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_phylum> .
+<http://purl.obolibrary.org/obo/NCBITaxon_35493> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_35493> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_35493> <http://www.w3.org/2000/01/rdf-schema#label> "Streptophyta" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_4055
+<http://purl.obolibrary.org/obo/NCBITaxon_4055> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_4055> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_91888> .
+<http://purl.obolibrary.org/obo/NCBITaxon_4055> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_order> .
+<http://purl.obolibrary.org/obo/NCBITaxon_4055> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_4055> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12144762" .
+<http://purl.obolibrary.org/obo/NCBITaxon_4055> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34254285" .
+<http://purl.obolibrary.org/obo/NCBITaxon_4055> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_4055> <http://www.w3.org/2000/01/rdf-schema#label> "Gentianales" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_49373
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_13442> .
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_species> .
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "NCBITaxon:213299" .
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Coffea arnoldiana" .
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://www.w3.org/2000/01/rdf-schema#comment> "Como su nombre lo indica proviene de Liberia en África y tiene un nicho de mercado importante en algunas regiones africanas y en Escandinavia.\n\nTradicionalmente ha sido reconocido como un café de baja calidad en taza.\n\nEsto se debe a que los árboles son muy altos, de manera que lo que se recoge son las cerezas sobre maduras que caen al suelo.\n\nY muchas de ellas se estropean y producen muchos defectos en taza."@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Libérica"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_49373> <http://www.w3.org/2000/01/rdf-schema#label> "Coffea liberica" .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid32 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_49373> .
+_:genid32 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid32 <http://www.w3.org/2002/07/owl#annotatedTarget> "Coffea arnoldiana" .
+_:genid32 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_49390
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_13442> .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#onClass> <http://w3id.org/def/coffeeontology#coffea_farming_altitude> .
+_:genid33 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/def/coffeeontology#hasFarmingRequirement> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_species> .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "robusta coffee" .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Coffea canephora var. robusta" .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Coffea robusta" .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.w3.org/2000/01/rdf-schema#comment> "Es originario de África occidental. Robusta es una variedad de café Canephora y es el segundo tipo de café más cultivado alrededor del mundo después de los arábigos.\n\nSe cultiva en áreas importantes del sudeste asiático como Vietnam y en  Sur américa Brasil es el mayor productor.\n\nEl árbol de café robusta es de porte pequeño, muy resistente a la roya del café y a la sequía y por tanto más fácil y barato de cultivar.\n\nSus granos son más redondos si se comparan con los del café arábigo y tienen un contenido mucho mayor de cafeína, lo que le da su característico sabor amargo.\n\nLa variedad de café robusta tiene un nicho de mercado muy importante en la fabricación de café soluble.\n\nY por ser más barato en los mercados, los tostadores lo utilizan para hacer mezclas (blends).\n\nEn esas mezclas,  solo un pequeño porcentaje es de café arábigo, que se utiliza para atenuar el sabor fuerte del café robusta.\n\nLa calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de los arábigos."@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Robusta"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_49390> <http://www.w3.org/2000/01/rdf-schema#label> "Coffea canephora" .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid34 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_49390> .
+_:genid34 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid34 <http://www.w3.org/2002/07/owl#annotatedTarget> "robusta coffee" .
+_:genid34 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid35 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_49390> .
+_:genid35 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid35 <http://www.w3.org/2002/07/owl#annotatedTarget> "Coffea canephora var. robusta" .
+_:genid35 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid36 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_49390> .
+_:genid36 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid36 <http://www.w3.org/2002/07/owl#annotatedTarget> "Coffea robusta" .
+_:genid36 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_58023
+<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_3193> .
+<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "vascular plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "vascular plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_58023> <http://www.w3.org/2000/01/rdf-schema#label> "Tracheophyta" .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid37 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_58023> .
+_:genid37 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid37 <http://www.w3.org/2002/07/owl#annotatedTarget> "vascular plants" .
+_:genid37 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid38 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_58023> .
+_:genid38 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid38 <http://www.w3.org/2002/07/owl#annotatedTarget> "vascular plants" .
+_:genid38 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_58024
+<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_78536> .
+<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "seed plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "seed plants" .
+<http://purl.obolibrary.org/obo/NCBITaxon_58024> <http://www.w3.org/2000/01/rdf-schema#label> "Spermatophyta" .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid39 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_58024> .
+_:genid39 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid39 <http://www.w3.org/2002/07/owl#annotatedTarget> "seed plants" .
+_:genid39 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#common_name> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid40 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_58024> .
+_:genid40 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid40 <http://www.w3.org/2002/07/owl#annotatedTarget> "seed plants" .
+_:genid40 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_71240
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_1437183> .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "NCBITaxon:3399" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25249442" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:26724406" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "Dicotyledoneae" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "dicots" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "dicotyledons" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "eudicots" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71240> <http://www.w3.org/2000/01/rdf-schema#label> "eudicotyledons" .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid41 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_71240> .
+_:genid41 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid41 <http://www.w3.org/2002/07/owl#annotatedTarget> "Dicotyledoneae" .
+_:genid41 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid42 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_71240> .
+_:genid42 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid42 <http://www.w3.org/2002/07/owl#annotatedTarget> "dicots" .
+_:genid42 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid43 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_71240> .
+_:genid43 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid43 <http://www.w3.org/2002/07/owl#annotatedTarget> "dicotyledons" .
+_:genid43 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#in_part> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid44 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_71240> .
+_:genid44 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid44 <http://www.w3.org/2002/07/owl#annotatedTarget> "eudicots" .
+_:genid44 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#blast_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_71274
+<http://purl.obolibrary.org/obo/NCBITaxon_71274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_71274> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_1437201> .
+<http://purl.obolibrary.org/obo/NCBITaxon_71274> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_71274> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71274> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12144762" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71274> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "Asteridae" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71274> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_71274> <http://www.w3.org/2000/01/rdf-schema#label> "asterids" .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid45 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_71274> .
+_:genid45 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid45 <http://www.w3.org/2002/07/owl#annotatedTarget> "Asteridae" .
+_:genid45 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_78536
+<http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_58023> .
+<http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "euphyllophytes" .
+<http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_78536> <http://www.w3.org/2000/01/rdf-schema#label> "Euphyllophyta" .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid46 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_78536> .
+_:genid46 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid46 <http://www.w3.org/2002/07/owl#annotatedTarget> "euphyllophytes" .
+_:genid46 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_91827
+<http://purl.obolibrary.org/obo/NCBITaxon_91827> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_91827> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_71240> .
+<http://purl.obolibrary.org/obo/NCBITaxon_91827> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_91827> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "NCBITaxon:1437200" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91827> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91827> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "core eudicots" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91827> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> "core eudicotyledons" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91827> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91827> <http://www.w3.org/2000/01/rdf-schema#label> "Gunneridae" .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid47 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_91827> .
+_:genid47 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid47 <http://www.w3.org/2002/07/owl#annotatedTarget> "core eudicots" .
+_:genid47 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid48 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_91827> .
+_:genid48 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> .
+_:genid48 <http://www.w3.org/2002/07/owl#annotatedTarget> "core eudicotyledons" .
+_:genid48 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_91888
+<http://purl.obolibrary.org/obo/NCBITaxon_91888> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_91888> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_71274> .
+<http://purl.obolibrary.org/obo/NCBITaxon_91888> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_clade> .
+<http://purl.obolibrary.org/obo/NCBITaxon_91888> <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "NCBITaxon:41935" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91888> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GC_ID:1" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91888> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12144762" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91888> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91888> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> "euasterids I" .
+<http://purl.obolibrary.org/obo/NCBITaxon_91888> <http://www.w3.org/2000/01/rdf-schema#label> "lamiids" .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:genid49 <http://www.w3.org/2002/07/owl#annotatedSource> <http://purl.obolibrary.org/obo/NCBITaxon_91888> .
+_:genid49 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> .
+_:genid49 <http://www.w3.org/2002/07/owl#annotatedTarget> "euasterids I" .
+_:genid49 <http://www.geneontology.org/formats/oboInOwl#hasSynonymType> <http://purl.obolibrary.org/obo/ncbitaxon#synonym> .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_class
+<http://purl.obolibrary.org/obo/NCBITaxon_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_class> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_class> <http://www.w3.org/2000/01/rdf-schema#label> "clase"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_class> <http://www.w3.org/2000/01/rdf-schema#label> "class" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_cohort
+<http://purl.obolibrary.org/obo/NCBITaxon_cohort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_cohort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_cohort> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_cohort> <http://www.w3.org/2000/01/rdf-schema#label> "cohort" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_family
+<http://purl.obolibrary.org/obo/NCBITaxon_family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_family> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_family> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_family> <http://www.w3.org/2000/01/rdf-schema#label> "familia"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_family> <http://www.w3.org/2000/01/rdf-schema#label> "family" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_forma
+<http://purl.obolibrary.org/obo/NCBITaxon_forma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_forma> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_forma> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_forma> <http://www.w3.org/2000/01/rdf-schema#label> "forma" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_genus
+<http://purl.obolibrary.org/obo/NCBITaxon_genus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_genus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_genus> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_genus> <http://www.w3.org/2000/01/rdf-schema#label> "género"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_genus> <http://www.w3.org/2000/01/rdf-schema#label> "genus" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_infraclass
+<http://purl.obolibrary.org/obo/NCBITaxon_infraclass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_infraclass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_infraclass> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_infraclass> <http://www.w3.org/2000/01/rdf-schema#label> "infraclass" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_infraorder
+<http://purl.obolibrary.org/obo/NCBITaxon_infraorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_infraorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_infraorder> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_infraorder> <http://www.w3.org/2000/01/rdf-schema#label> "infraorder" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_kingdom
+<http://purl.obolibrary.org/obo/NCBITaxon_kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_kingdom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_kingdom> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "reino"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "kingdom" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_order
+<http://purl.obolibrary.org/obo/NCBITaxon_order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_order> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_order> <http://www.w3.org/2000/01/rdf-schema#label> "orden"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_order> <http://www.w3.org/2000/01/rdf-schema#label> "order" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_parvorder
+<http://purl.obolibrary.org/obo/NCBITaxon_parvorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_parvorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_parvorder> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_parvorder> <http://www.w3.org/2000/01/rdf-schema#label> "parvorder" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_phylum
+<http://purl.obolibrary.org/obo/NCBITaxon_phylum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_phylum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_phylum> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_phylum> <http://www.w3.org/2000/01/rdf-schema#label> "phylum" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_section
+<http://purl.obolibrary.org/obo/NCBITaxon_section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_section> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_section> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_section> <http://www.w3.org/2000/01/rdf-schema#label> "section" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_series
+<http://purl.obolibrary.org/obo/NCBITaxon_series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_series> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_series> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_series> <http://www.w3.org/2000/01/rdf-schema#label> "series" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_species
+<http://purl.obolibrary.org/obo/NCBITaxon_species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_species> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_species> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_species> <http://www.w3.org/2000/01/rdf-schema#label> "especies"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_species> <http://www.w3.org/2000/01/rdf-schema#label> "species" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_subclass
+<http://purl.obolibrary.org/obo/NCBITaxon_subclass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subclass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subclass> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_subclass> <http://www.w3.org/2000/01/rdf-schema#label> "subclass" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_subcohort
+<http://purl.obolibrary.org/obo/NCBITaxon_subcohort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subcohort> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subcohort> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_subcohort> <http://www.w3.org/2000/01/rdf-schema#label> "subcohort" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_subfamily
+<http://purl.obolibrary.org/obo/NCBITaxon_subfamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subfamily> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subfamily> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_subfamily> <http://www.w3.org/2000/01/rdf-schema#label> "subfamily" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_subgenus
+<http://purl.obolibrary.org/obo/NCBITaxon_subgenus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subgenus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subgenus> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_subgenus> <http://www.w3.org/2000/01/rdf-schema#label> "subgenus" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_subkingdom
+<http://purl.obolibrary.org/obo/NCBITaxon_subkingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subkingdom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subkingdom> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_subkingdom> <http://www.w3.org/2000/01/rdf-schema#label> "subkingdom" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_suborder
+<http://purl.obolibrary.org/obo/NCBITaxon_suborder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_suborder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_suborder> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_suborder> <http://www.w3.org/2000/01/rdf-schema#label> "suborder" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_subphylum
+<http://purl.obolibrary.org/obo/NCBITaxon_subphylum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subphylum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subphylum> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_subphylum> <http://www.w3.org/2000/01/rdf-schema#label> "subphylum" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_subsection
+<http://purl.obolibrary.org/obo/NCBITaxon_subsection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subsection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subsection> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_subsection> <http://www.w3.org/2000/01/rdf-schema#label> "subsection" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_subspecies
+<http://purl.obolibrary.org/obo/NCBITaxon_subspecies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subspecies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subspecies> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_subspecies> <http://www.w3.org/2000/01/rdf-schema#label> "subespecies"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_subspecies> <http://www.w3.org/2000/01/rdf-schema#label> "subspecies" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_subtribe
+<http://purl.obolibrary.org/obo/NCBITaxon_subtribe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subtribe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_subtribe> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_subtribe> <http://www.w3.org/2000/01/rdf-schema#label> "subtribe" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_superclass
+<http://purl.obolibrary.org/obo/NCBITaxon_superclass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superclass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superclass> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_superclass> <http://www.w3.org/2000/01/rdf-schema#label> "superclass" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_superfamily
+<http://purl.obolibrary.org/obo/NCBITaxon_superfamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superfamily> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superfamily> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_superfamily> <http://www.w3.org/2000/01/rdf-schema#label> "superfamily" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_superkingdom
+<http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> <http://www.w3.org/2000/01/rdf-schema#label> "super-reino"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_superkingdom> <http://www.w3.org/2000/01/rdf-schema#label> "superkingdom" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_superorder
+<http://purl.obolibrary.org/obo/NCBITaxon_superorder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superorder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superorder> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_superorder> <http://www.w3.org/2000/01/rdf-schema#label> "superorder" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_superphylum
+<http://purl.obolibrary.org/obo/NCBITaxon_superphylum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superphylum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_superphylum> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_superphylum> <http://www.w3.org/2000/01/rdf-schema#label> "superphylum" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_tribe
+<http://purl.obolibrary.org/obo/NCBITaxon_tribe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_tribe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_tribe> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_tribe> <http://www.w3.org/2000/01/rdf-schema#label> "tribu"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon_tribe> <http://www.w3.org/2000/01/rdf-schema#label> "tribe" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon_varietas
+<http://purl.obolibrary.org/obo/NCBITaxon_varietas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon_varietas> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon_varietas> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon_varietas> <http://www.w3.org/2000/01/rdf-schema#label> "varietas" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon#_species_group
+<http://purl.obolibrary.org/obo/NCBITaxon#_species_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon#_species_group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon#_species_group> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon#_species_group> <http://www.w3.org/2000/01/rdf-schema#label> "species group" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon#_species_subgroup
+<http://purl.obolibrary.org/obo/NCBITaxon#_species_subgroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon#_species_subgroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> .
+<http://purl.obolibrary.org/obo/NCBITaxon#_species_subgroup> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon#_species_subgroup> <http://www.w3.org/2000/01/rdf-schema#label> "species subgroup" .
+# 
+# http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank
+<http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "ncbi_taxonomy" .
+<http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> <http://www.w3.org/2000/01/rdf-schema#comment> "Categoría Taxonómica Biológica"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an abstract class for use with the NCBI taxonomy to name the depth of the node within the tree. The link between the node term and the rank is only visible if you are using an obo 1.3 aware browser/editor; otherwise this can be ignored." .
+<http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> <http://www.w3.org/2000/01/rdf-schema#label> "categoría taxonómica"@es .
+<http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomic rank" .
+# 
+# http://purl.org/net/p-plan#Activity
+<http://purl.org/net/p-plan#Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/p-plan#Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> .
+# 
+# http://purl.org/net/p-plan#Entity
+<http://purl.org/net/p-plan#Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/p-plan#Entity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Entity> .
+# 
+# http://purl.org/net/p-plan#MultiStep
+<http://purl.org/net/p-plan#MultiStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/p-plan#MultiStep> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/p-plan#Step> .
+# 
+# http://purl.org/net/p-plan#Plan
+<http://purl.org/net/p-plan#Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/net/p-plan#Step
+<http://purl.org/net/p-plan#Step> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/p-plan#Step> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/p-plan#Variable> .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#hasInputVar> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://purl.org/net/p-plan#Variable
+<http://purl.org/net/p-plan#Variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/net/p-plan#Variable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/net/p-plan#Step> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#isOutputVarOf> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://qudt.org/schema/qudt/Quantity
+<http://qudt.org/schema/qudt/Quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qudt.org/schema/qudt/Quantity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://qudt.org/schema/qudt/qudt:Concept> .
+<http://qudt.org/schema/qudt/Quantity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://qudt.org/schema/qudt/QuantityValue> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/quantityValue> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://qudt.org/schema/qudt/Quantity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#onClass> <http://qudt.org/schema/qudt/QuantityKind> .
+_:genid53 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/hasQuantityKind> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://qudt.org/schema/qudt/Quantity> <http://purl.org/dc/terms/description> "A quantity is the measurement of an observable property of a particular object, event, or physical system. A quantity is always associated with the context of measurement (i.e. the thing measured, the measured value, the accuracy of measurement, etc.) whereas the underlying quantity kind is independent of any particular measurement. Thus, length is a quantity kind while the height of a rocket is a specific quantity of length; its magnitude that may be expressed in meters, feet, inches, etc. Examples of physical quantities include physical constants, such as the speed of light in a vacuum, Planck's constant, the electric permittivity of free space, and the fine structure constant.\n\nIn other words, quantities are quantifiable aspects of the world, such as the duration of a movie, the distance between two points, velocity of a car, the pressure of the atmosphere, and a person's weight; and units are used to describe their numerical measure.\n\nMany quantity kinds are related to each other by various physical laws, and as a result, the associated units of some quantity kinds can be expressed as products (or ratios) of powers of other quantity kinds (e.g., momentum is mass times velocity and velocity is defined as distance divided by time). In this way, some quantities can be calculated from other measured quantities using their associations to the quantity kinds in these expressions. These quantity kind relationships are also discussed in dimensional analysis. Those that cannot be so expressed can be regarded as \"fundamental\" in this sense.\n\nA quantity is distinguished from a \"quantity kind\" in that the former carries a value and the latter is a type specifier."@en .
+# 
+# http://qudt.org/schema/qudt/QuantityKind
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://qudt.org/schema/qudt/qudt:Concept> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#onClass> <https://qudt.org/schema/qudt/Unit> .
+_:genid54 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/applicableUnit> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://qudt.org/schema/qudt/QuantityValue
+<http://qudt.org/schema/qudt/QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://qudt.org/schema/qudt/QuantityValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://qudt.org/schema/qudt/qudt:Concept> .
+<http://qudt.org/schema/qudt/QuantityValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid55 .
+_:genid55 <http://www.w3.org/2002/07/owl#onClass> <https://qudt.org/schema/qudt/Unit> .
+_:genid55 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <https://qudt.org/schema/qudt/hasUnit> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#Altitude
+<http://w3id.org/def/coffeeontology#Altitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Altitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qudt.org/schema/qudt/QuantityKind> .
+<http://w3id.org/def/coffeeontology#Altitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
+_:genid56 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#Meter> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/applicableUnit> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#Celsius
+<http://w3id.org/def/coffeeontology#Celsius> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Celsius> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://qudt.org/schema/qudt/Unit> .
+# 
+# http://w3id.org/def/coffeeontology#Coffea_arabica_var._bourbon_Rodr._ex_Choussy
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._bourbon_Rodr._ex_Choussy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._bourbon_Rodr._ex_Choussy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_13443> .
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._bourbon_Rodr._ex_Choussy> <http://www.w3.org/2002/07/owl#disjointWith> <http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica> .
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._bourbon_Rodr._ex_Choussy> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> .
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._bourbon_Rodr._ex_Choussy> <http://www.w3.org/2000/01/rdf-schema#comment> "La variedad Borbón proviene de los cafés arábigos que pasaron del Yemen a las colonias francesas  en la isla de Bourbon en África (hoy es el país de Reunión). De allí el cultivo se extendió a Kenia y Tanzania."@es .
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._bourbon_Rodr._ex_Choussy> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Bourbon"@es .
+# 
+# http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_13443> .
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_subspecies> .
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica> <http://www.w3.org/2000/01/rdf-schema#comment> "La variedad Tipyca o Típica, es el arábigo original proveniente del Yemen que fue llevado por los holandeses a principios de 1700 hasta la isla de Java y las islas circundantes."@es .
+<http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Típica"@es .
+# 
+# http://w3id.org/def/coffeeontology#Coffea_barako
+<http://w3id.org/def/coffeeontology#Coffea_barako> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Coffea_barako> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_49373> .
+<http://w3id.org/def/coffeeontology#Coffea_barako> <http://www.w3.org/2000/01/rdf-schema#comment> "Kapeng barako (en español: café varraco o café verraco), también conocido como café Barako o café Batangas, es una variedad de café cultivada en Filipinas, especialmente en las provincias de Batangas y Cavite. Pertenece a la especie Coffea liberica. El término también se utiliza para referirse a todo el café procedente de esas provincias. Barako en las lenguas de Filipinas significa \"semental\", y se asocia a la imagen de la masculinidad. El barako tiene un sabor fuerte y una fragancia que recuerda al anís."@es .
+<http://w3id.org/def/coffeeontology#Coffea_barako> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Varraco"@es .
+# 
+# http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher
+<http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_49390> .
+<http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Conilón"@es .
+# 
+# http://w3id.org/def/coffeeontology#Coffea_excelsa
+<http://w3id.org/def/coffeeontology#Coffea_excelsa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Coffea_excelsa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_49373> .
+<http://w3id.org/def/coffeeontology#Coffea_excelsa> <http://www.w3.org/2000/01/rdf-schema#comment> "A principios del siglo XX se descubrió una planta de café muy parecida a la del café libérica tanto que desde hace ya unos años podemos decir que son la misma variedad, lo que cambia es la calidad, ya que el café excelsa cuenta con frutos más pequeños y con un grano de menor calidad. Su origen fue en el Lago Chad, en la frontera entre Chad, Nigeria, Níger y Camerún. Se llamó cafe excelsa"@es .
+<http://w3id.org/def/coffeeontology#Coffea_excelsa> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Excelsa"@es .
+# 
+# http://w3id.org/def/coffeeontology#Coffee_Kouilloi
+<http://w3id.org/def/coffeeontology#Coffee_Kouilloi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Coffee_Kouilloi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_49390> .
+<http://w3id.org/def/coffeeontology#Coffee_Kouilloi> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Kouilloi"@es .
+# 
+# http://w3id.org/def/coffeeontology#Coffee_Niaouli
+<http://w3id.org/def/coffeeontology#Coffee_Niaouli> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Coffee_Niaouli> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_49390> .
+<http://w3id.org/def/coffeeontology#Coffee_Niaouli> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Niaouli"@es .
+# 
+# http://w3id.org/def/coffeeontology#Coffee_Uganda
+<http://w3id.org/def/coffeeontology#Coffee_Uganda> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Coffee_Uganda> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_49390> .
+<http://w3id.org/def/coffeeontology#Coffee_Uganda> <http://www.w3.org/2000/01/rdf-schema#label> "Cafeto Uganda"@es .
+# 
+# http://w3id.org/def/coffeeontology#Meter
+<http://w3id.org/def/coffeeontology#Meter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Meter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://qudt.org/schema/qudt/Unit> .
+# 
+# http://w3id.org/def/coffeeontology#Milimeter
+<http://w3id.org/def/coffeeontology#Milimeter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Milimeter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://qudt.org/schema/qudt/Unit> .
+# 
+# http://w3id.org/def/coffeeontology#Plantae
+<http://w3id.org/def/coffeeontology#Plantae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Plantae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/NCBITaxon_2759> .
+<http://w3id.org/def/coffeeontology#Plantae> <http://purl.obolibrary.org/obo/ncbitaxon#has_rank> <http://purl.obolibrary.org/obo/NCBITaxon_kingdom> .
+<http://w3id.org/def/coffeeontology#Plantae> <http://www.w3.org/2000/01/rdf-schema#label> "Plantas"@es .
+# 
+# http://w3id.org/def/coffeeontology#Precipitation
+<http://w3id.org/def/coffeeontology#Precipitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Precipitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qudt.org/schema/qudt/QuantityKind> .
+<http://w3id.org/def/coffeeontology#Precipitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
+_:genid57 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#Milimeter> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/applicableUnit> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#Temperature
+<http://w3id.org/def/coffeeontology#Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#Temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qudt.org/schema/qudt/QuantityKind> .
+<http://w3id.org/def/coffeeontology#Temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#Celsius> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/applicableUnit> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#coffea_farming_altitude
+<http://w3id.org/def/coffeeontology#coffea_farming_altitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#coffea_farming_altitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qudt.org/schema/qudt/Quantity> .
+<http://w3id.org/def/coffeeontology#coffea_farming_altitude> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
+_:genid59 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#Altitude> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/hasQuantityKind> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#coffea_farming_country
+<http://w3id.org/def/coffeeontology#coffea_farming_country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#coffea_farming_country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.geonames.org/ontology#GeonamesFeature> .
+# 
+# http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage
+<http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qudt.org/schema/qudt/Quantity> .
+<http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#Precipitation> .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/hasQuantityKind> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature
+<http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://qudt.org/schema/qudt/Quantity> .
+<http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#Temperature> .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/hasQuantityKind> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#coffea_farming_region
+<http://w3id.org/def/coffeeontology#coffea_farming_region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#coffea_farming_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid62 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64 .
+_:genid64 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/def/coffeeontology#hasFarmingRequirement> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid66 .
+_:genid66 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/def/coffeeontology#hasFarmingRequirement> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid68 .
+_:genid68 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/def/coffeeontology#coffea_farming_altitude> .
+_:genid68 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/def/coffeeontology#hasFarmingRequirement> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://w3id.org/def/coffeeontology#coffea_farming_region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid69 .
+_:genid69 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/def/coffeeontology#coffea_farming_country> .
+_:genid69 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#locatedIn> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#coffee_production_plan
+<http://w3id.org/def/coffeeontology#coffee_production_plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#coffee_production_plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/p-plan#Plan> .
+# 
+# http://w3id.org/def/coffeeontology#cpp_bioentity
+<http://w3id.org/def/coffeeontology#cpp_bioentity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_bioentity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/p-plan#Entity> .
+<http://w3id.org/def/coffeeontology#cpp_bioentity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid70 .
+_:genid70 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://w3id.org/def/coffeeontology#cpp_variable> .
+_:genid70 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#correspondsToVariable> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#cpp_bioentity_coffea
+<http://w3id.org/def/coffeeontology#cpp_bioentity_coffea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_bioentity_coffea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#cpp_bioentity> .
+<http://w3id.org/def/coffeeontology#cpp_bioentity_coffea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid71 .
+_:genid71 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#cpp_variable_initial> .
+_:genid71 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#correspondsToVariable> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#cpp_bioentity_coffee
+<http://w3id.org/def/coffeeontology#cpp_bioentity_coffee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_bioentity_coffee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#cpp_bioentity> .
+<http://w3id.org/def/coffeeontology#cpp_bioentity_coffee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid72 .
+_:genid72 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#cpp_variable_final> .
+_:genid72 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#correspondsToVariable> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/def/coffeeontology#cpp_bioentity_coffee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
+_:genid73 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#coffee_production_plan> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#wasDerivedFrom> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/def/coffeeontology#cpp_bioentity_coffee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid74 .
+_:genid74 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#cpp_percolado> .
+_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#wasGeneratedBy> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#cpp_percolado
+<http://w3id.org/def/coffeeontology#cpp_percolado> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_percolado> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/p-plan#Activity> .
+<http://w3id.org/def/coffeeontology#cpp_percolado> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
+_:genid75 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#cpp_step_final> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#correspondsToStep> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/def/coffeeontology#cpp_percolado> <http://www.w3.org/2000/01/rdf-schema#comment> "Percolado de agua caliente para la obtención de café"@es .
+<http://w3id.org/def/coffeeontology#cpp_percolado> <http://www.w3.org/2000/01/rdf-schema#label> "Actividad Percolado"@es .
+# 
+# http://w3id.org/def/coffeeontology#cpp_step
+<http://w3id.org/def/coffeeontology#cpp_step> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_step> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/p-plan#Step> .
+<http://w3id.org/def/coffeeontology#cpp_step> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#coffee_production_plan> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#isStepOfPlan> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#cpp_step_final
+<http://w3id.org/def/coffeeontology#cpp_step_final> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_step_final> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#cpp_step> .
+# 
+# http://w3id.org/def/coffeeontology#cpp_step_initial
+<http://w3id.org/def/coffeeontology#cpp_step_initial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_step_initial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#cpp_step> .
+# 
+# http://w3id.org/def/coffeeontology#cpp_variable
+<http://w3id.org/def/coffeeontology#cpp_variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_variable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/p-plan#Variable> .
+<http://w3id.org/def/coffeeontology#cpp_variable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
+_:genid77 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#coffee_production_plan> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#isVariableOfPlan> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#cpp_variable_final
+<http://w3id.org/def/coffeeontology#cpp_variable_final> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_variable_final> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#cpp_variable> .
+<http://w3id.org/def/coffeeontology#cpp_variable_final> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid78 .
+_:genid78 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#cpp_step_final> .
+_:genid78 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#isOutputVarOf> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/def/coffeeontology#cpp_variable_final> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid79 .
+_:genid79 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#coffee_production_plan> .
+_:genid79 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#isVariableOfPlan> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#cpp_variable_initial
+<http://w3id.org/def/coffeeontology#cpp_variable_initial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#cpp_variable_initial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#cpp_variable> .
+<http://w3id.org/def/coffeeontology#cpp_variable_initial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid80 .
+_:genid80 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#cpp_step_initial> .
+_:genid80 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#isOutputVarOf> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://w3id.org/def/coffeeontology#cpp_variable_initial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid81 .
+_:genid81 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://w3id.org/def/coffeeontology#coffee_production_plan> .
+_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/p-plan#isVariableOfPlan> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://w3id.org/def/coffeeontology#region_any
+<http://w3id.org/def/coffeeontology#region_any> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#region_any> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#coffea_farming_region> .
+# 
+# http://w3id.org/def/coffeeontology#region_ecuatorial
+<http://w3id.org/def/coffeeontology#region_ecuatorial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#region_ecuatorial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#coffea_farming_region> .
+# 
+# http://w3id.org/def/coffeeontology#region_subtropical
+<http://w3id.org/def/coffeeontology#region_subtropical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://w3id.org/def/coffeeontology#region_subtropical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/def/coffeeontology#coffea_farming_region> .
+# 
+# http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/prov#Activity
+<http://www.w3.org/ns/prov#Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/prov#Entity
+<http://www.w3.org/ns/prov#Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://qudt.org/schema/qudt/Unit
+<https://qudt.org/schema/qudt/Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://qudt.org/schema/qudt/Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://qudt.org/schema/qudt/qudt:Concept> .
+<https://qudt.org/schema/qudt/Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
+_:genid82 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://qudt.org/schema/qudt/QuantityKind> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <http://qudt.org/schema/qudt/hasQuantityKind> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# https://qudt.org/schema/qudt/qudt:Concept
+<https://qudt.org/schema/qudt/qudt:Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.geonames.org/ontology#Feature
+<https://www.geonames.org/ontology#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.geonames.org/ontology#Feature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<https://www.geonames.org/ontology#Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "A geographical feature"@en .
+<https://www.geonames.org/ontology#Feature> <http://www.w3.org/2000/01/rdf-schema#label> "Feature"@en .
+<https://www.geonames.org/ontology#Feature> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://schema.org/Place> .
+<https://www.geonames.org/ontology#Feature> <http://www.w3.org/2004/02/skos/core#historyNote> "Modified in version 3.1 : The cardinality constraints on feature code, feature class are relaxed on this class, and put on the specific subclass Geonames Feature. This class and attached properties can therefore be used for features not necessarily identified in the Geoanmes data base"@en .
+# 
+# https://www.geonames.org/ontology#GeonamesFeature
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.geonames.org/ontology#Feature> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#featureClass> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#parentADM1> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid85 .
+_:genid85 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#parentADM2> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid86 .
+_:genid86 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid86 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#parentADM3> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid87 .
+_:genid87 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#parentADM4> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
+_:genid88 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#geonamesID> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid89 .
+_:genid89 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#lat> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#long> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#name> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid92 .
+_:genid92 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#countryCode> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid93 .
+_:genid93 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <https://www.geonames.org/ontology#population> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "A feature described in geonames database, uniquely defined by its geonames identifier"@en .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Geonames Feature"@en .
+<https://www.geonames.org/ontology#GeonamesFeature> <http://www.w3.org/2004/02/skos/core#historyNote> "Added in version 3.1"@en .
+# 
+_:genid94 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "8"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid95 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid96 <http://www.w3.org/2002/07/owl#members> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/def/coffeeontology#Coffee_Uganda> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/def/coffeeontology#Coffee_Niaouli> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/def/coffeeontology#Coffee_Kouilloi> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid101 <http://www.w3.org/2002/07/owl#members> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/def/coffeeontology#region_subtropical> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/def/coffeeontology#region_ecuatorial> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/def/coffeeontology#region_any> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
