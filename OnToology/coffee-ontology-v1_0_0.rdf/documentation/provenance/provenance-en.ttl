@@ -1,0 +1,12 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<http://www.semanticweb.org/coffee-ontology/1.0.0> a prov:Entity;
+	 dc:title "The Coffee Ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.
+:agent0 a prov:Agent; foaf:name "Alejandro Calleja Herrador".
+:agent1 a prov:Agent; foaf:name "Alejandro Calleja Herrador (version 1.0.0)".
