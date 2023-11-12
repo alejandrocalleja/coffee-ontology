@@ -1,0 +1,3381 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131221"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "charophyte/embryophyte group"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "eucaryotes"
+  } ]
+}, {
+  "@id" : "_:genid101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/def/coffeeontology#region_any"
+    }, {
+      "@id" : "http://w3id.org/def/coffeeontology#region_ecuatorial"
+    }, {
+      "@id" : "http://w3id.org/def/coffeeontology#region_subtropical"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "eukaryotes"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Eucarya"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Eucaryotae"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Eukarya"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Eukaryotae"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#blast_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "eukaryotes"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3193"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "higher plants"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3193"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "land plants"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3193"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "plants"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131221"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Charophyta/Embryophyta group"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#blast_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3193"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "land plants"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Chlorophyta/Embryophyta group"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "chlorophyte/embryophyte group"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "green plants"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Chlorobionta"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Chloroplastida"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#blast_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "green plants"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3398"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "angiosperms"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3398"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "flowering plants"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3398"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Angiospermae"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "biota"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3398"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Magnoliophyta"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#blast_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3398"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "flowering plants"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49373"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Coffea arnoldiana"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_altitude"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRequirement"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49390"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "robusta coffee"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49390"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Coffea canephora var. robusta"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49390"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Coffea robusta"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58023"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "vascular plants"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#blast_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58023"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "vascular plants"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58024"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "seed plants"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRegion"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#blast_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58024"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "seed plants"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#in_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71240"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Dicotyledoneae"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#in_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71240"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "dicots"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#in_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71240"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "dicotyledons"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#blast_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71240"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "eudicots"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71274"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Asteridae"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_78536"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "euphyllophytes"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_91827"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "core eudicots"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#equivalent_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_91827"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "core eudicotyledons"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_91888"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "euasterids I"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13442"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "coffee"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#hasInputVar"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.org/net/p-plan#Variable"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#isOutputVarOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://qudt.org/schema/qudt/QuantityValue"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/quantityValue"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://qudt.org/schema/qudt/QuantityKind"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/hasQuantityKind"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://qudt.org/schema/qudt/Unit"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/applicableUnit"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://qudt.org/schema/qudt/Unit"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://qudt.org/schema/qudt/hasUnit"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#Meter"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/applicableUnit"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#Milimeter"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/applicableUnit"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#Celsius"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/applicableUnit"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#Altitude"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/hasQuantityKind"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#synonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13442"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Psilanthus"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#Precipitation"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/hasQuantityKind"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#Temperature"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/hasQuantityKind"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid68"
+    }, {
+      "@id" : "_:genid66"
+    }, {
+      "@id" : "_:genid64"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRequirement"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRequirement"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRequirement"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_altitude"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#locatedIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_country"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13443"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "arabica coffee"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#correspondsToVariable"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_variable"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_variable_initial"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#correspondsToVariable"
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_variable_final"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#correspondsToVariable"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffee_production_plan"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_percolado"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_step_final"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#correspondsToStep"
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffee_production_plan"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#isStepOfPlan"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffee_production_plan"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#isVariableOfPlan"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_step_final"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#isOutputVarOf"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffee_production_plan"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#isVariableOfPlan"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#genbank_common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13443"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "coffee"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_step_initial"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#isOutputVarOf"
+  } ]
+}, {
+  "@id" : "_:genid81",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffee_production_plan"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/net/p-plan#isVariableOfPlan"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://qudt.org/schema/qudt/hasQuantityKind"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://qudt.org/schema/qudt/QuantityKind"
+  } ]
+}, {
+  "@id" : "_:genid83",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#featureClass"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#parentADM1"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#parentADM2"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#parentADM3"
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#parentADM4"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#geonamesID"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#lat"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#common_name"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_24966"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "madder family"
+  } ]
+}, {
+  "@id" : "_:genid90",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#long"
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#name"
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#countryCode"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#population"
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "8"
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher"
+    }, {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffee_Kouilloi"
+    }, {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffee_Niaouli"
+    }, {
+      "@id" : "http://w3id.org/def/coffeeontology#Coffee_Uganda"
+    } ]
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#License",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://geovocab.org/spatial#Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A geographical feature, capable of holding spatial relations."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Feature"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "testing"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_species_group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "species group"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_species_subgroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "species subgroup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Categoría Taxonómica Biológica"
+  }, {
+    "@value" : "This is an abstract class for use with the NCBI taxonomy to name the depth of the node within the tree. The link between the node term and the rank is only visible if you are using an obo 1.3 aware browser/editor; otherwise this can be ignored."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "categoría taxonómica"
+  }, {
+    "@value" : "taxonomic rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131221",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subphylum"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "charophyte/embryophyte group"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "Charophyta/Embryophyta group"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Streptophytina"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_35493"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131567",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "biota"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "organismos celulares"
+  }, {
+    "@value" : "cellular organisms"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13442",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_genus"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "NCBITaxon:49384"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "coffee"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "Psilanthus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Árbol de la familia de las rubiáceas, originario de Etiopía, de cuatro a seis metros de altura, con hojas opuestas, lanceoladas, persistentes y de un hermoso color verde, flores blancas y olorosas, parecidas a las del jazmín, y fruto en baya roja, cuya semilla es el café."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto"
+  }, {
+    "@value" : "Coffea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_169640"
+  }, {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity_coffea"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13443",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "arabica coffee"
+  }, {
+    "@value" : "coffee"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La especie arábica es la más cultivada en el mundo. Un 60 % del área cafetalera mundial está cultivada en diferentes variedades y cultivares de café arábigo.\n\nEsta especie es originaria de Etiopía (antiguo Yemen) y se tienen datos de su cultivo desde hace 2000 años.\n\nLa especie arábica se caracteriza por ser una arbusto que alcanza hasta  8 metros de altura. Sus hojas son de color verde intenso y sus granos de color rojo o amarillo cuando maduran."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Arábigo"
+  }, {
+    "@value" : "Coffea arabica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13442"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1437183",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  }, {
+    "@value" : "PMID:25249442"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Mesangiospermae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3398"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1437201",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pentapetalae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_91827"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_169618",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subfamily"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ixoroideae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_24966"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_169640",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_tribe"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Coffeeae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1968428"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1968428",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bertiereae - Coffeeae clade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1968429"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1968429",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gardenieae complex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_169618"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_24966",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_family"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "madder family"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Las rubiáceas (Rubiaceae) son una familia de plantas llamadas normalmente de la rubia, galio blanco, o familia del café."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Rubiáceas"
+  }, {
+    "@value" : "Rubiaceae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4055"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superkingdom"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  }, {
+    "@value" : "PMID:23020233"
+  }, {
+    "@value" : "PMID:30257078"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "eucaryotes"
+  }, {
+    "@value" : "eukaryotes"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "Eucarya"
+  }, {
+    "@value" : "Eucaryotae"
+  }, {
+    "@value" : "Eukarya"
+  }, {
+    "@value" : "Eukaryotae"
+  }, {
+    "@value" : "eukaryotes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Eukaryota"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3193",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "higher plants"
+  }, {
+    "@value" : "land plants"
+  }, {
+    "@value" : "plants"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "land plants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Embryophyta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131221"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subkingdom"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  }, {
+    "@value" : "PMID:16248873"
+  }, {
+    "@value" : "PMID:30257078"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "Chlorophyta/Embryophyta group"
+  }, {
+    "@value" : "chlorophyte/embryophyte group"
+  }, {
+    "@value" : "green plants"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "Chlorobionta"
+  }, {
+    "@value" : "Chloroplastida"
+  }, {
+    "@value" : "green plants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Viridiplantae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#Plantae"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3398",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_class"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  }, {
+    "@value" : "PMID:25249442"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "angiosperms"
+  }, {
+    "@value" : "flowering plants"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "Angiospermae"
+  }, {
+    "@value" : "Magnoliophyta"
+  }, {
+    "@value" : "flowering plants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Magnoliopsida"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58024"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_35493",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_phylum"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Streptophyta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_4055",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_order"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  }, {
+    "@value" : "PMID:12144762"
+  }, {
+    "@value" : "PMID:34254285"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gentianales"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_91888"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49373",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "NCBITaxon:213299"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "Coffea arnoldiana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Como su nombre lo indica proviene de Liberia en África y tiene un nicho de mercado importante en algunas regiones africanas y en Escandinavia.\n\nTradicionalmente ha sido reconocido como un café de baja calidad en taza.\n\nEsto se debe a que los árboles son muy altos, de manera que lo que se recoge son las cerezas sobre maduras que caen al suelo.\n\nY muchas de ellas se estropean y producen muchos defectos en taza."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Libérica"
+  }, {
+    "@value" : "Coffea liberica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13442"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49390",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "robusta coffee"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "Coffea canephora var. robusta"
+  }, {
+    "@value" : "Coffea robusta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Es originario de África occidental. Robusta es una variedad de café Canephora y es el segundo tipo de café más cultivado alrededor del mundo después de los arábigos.\n\nSe cultiva en áreas importantes del sudeste asiático como Vietnam y en  Sur américa Brasil es el mayor productor.\n\nEl árbol de café robusta es de porte pequeño, muy resistente a la roya del café y a la sequía y por tanto más fácil y barato de cultivar.\n\nSus granos son más redondos si se comparan con los del café arábigo y tienen un contenido mucho mayor de cafeína, lo que le da su característico sabor amargo.\n\nLa variedad de café robusta tiene un nicho de mercado muy importante en la fabricación de café soluble.\n\nY por ser más barato en los mercados, los tostadores lo utilizan para hacer mezclas (blends).\n\nEn esas mezclas,  solo un pequeño porcentaje es de café arábigo, que se utiliza para atenuar el sabor fuerte del café robusta.\n\nLa calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de los arábigos."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Robusta"
+  }, {
+    "@value" : "Coffea canephora"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13442"
+  }, {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "vascular plants"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "vascular plants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tracheophyta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_3193"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58024",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "seed plants"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "seed plants"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Spermatophyta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_78536"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71240",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "NCBITaxon:3399"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  }, {
+    "@value" : "PMID:25249442"
+  }, {
+    "@value" : "PMID:26724406"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "Dicotyledoneae"
+  }, {
+    "@value" : "dicots"
+  }, {
+    "@value" : "dicotyledons"
+  }, {
+    "@value" : "eudicots"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "eudicotyledons"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1437183"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71274",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  }, {
+    "@value" : "PMID:12144762"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "Asteridae"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "asterids"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1437201"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_78536",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "euphyllophytes"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Euphyllophyta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_58023"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_91827",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "NCBITaxon:1437200"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "core eudicots"
+  }, {
+    "@value" : "core eudicotyledons"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gunneridae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71240"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_91888",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_clade"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "NCBITaxon:41935"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GC_ID:1"
+  }, {
+    "@value" : "PMID:12144762"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "@value" : "euasterids I"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "lamiids"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_71274"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "clase"
+  }, {
+    "@value" : "class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_cohort",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "cohort"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_family",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "familia"
+  }, {
+    "@value" : "family"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_forma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "forma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_genus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "género"
+  }, {
+    "@value" : "genus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_infraclass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "infraclass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_infraorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "infraorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_kingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "reino"
+  }, {
+    "@value" : "kingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "orden"
+  }, {
+    "@value" : "order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_parvorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "parvorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_phylum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "phylum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_section",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "section"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_series",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "series"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_species",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "especies"
+  }, {
+    "@value" : "species"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subclass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subclass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subcohort",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subcohort"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subfamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subfamily"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subgenus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subgenus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subkingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subkingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_suborder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "suborder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subphylum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subphylum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subsection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subsection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subspecies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "subespecies"
+  }, {
+    "@value" : "subspecies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subtribe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "subtribe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superclass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "superclass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superfamily",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "superfamily"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superkingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "super-reino"
+  }, {
+    "@value" : "superkingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "superorder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superphylum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "superphylum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_tribe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "tribu"
+  }, {
+    "@value" : "tribe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_varietas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "ncbi_taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "varietas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon#_taxonomic_rank"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#MultiStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#Step",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid50"
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#Variable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid51"
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#correspondsToStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#correspondsToVariable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#hasInputVar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/net/p-plan#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasInputVar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Variable"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://purl.org/net/p-plan#isInputVarOf"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "p-plan:hasInputVar binds a p-plan:Step to the p-plan:Variable that takes as input for the planned execution"
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#hasOutputVar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/net/p-plan#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasOutputVar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Variable"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://purl.org/net/p-plan#isOutputVarOf"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "p-plan:hasOutputVar binds a p-plan:Step to the p-plan:Variable that will be produced as output in the planned execution"
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#isDecomposedAsPlan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#MultiStep"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/net/p-plan#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isDecomposedAsPlan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Plan"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "The p-plan:isDecomposedAsPlan relationship binds a p-plan:MultiStep to the p-plan:Plan holding the definition of that step. That is, p-plan:isDecomposedAsPlan links the MultiStep to the Plan sptecification where it is decomposed."
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#isInputVarOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Variable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/net/p-plan#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isInputVarOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "p-plan:isInputVarOf links an input variable of a step to the step."
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#isOutputVarOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Variable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/net/p-plan#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isOutputVarOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "p-plan:isOutputVarOf is intended to link an output variable of a step to the step."
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#isPrecededBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@id" : "http://purl.org/net/p-plan#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "Property that asserts which Step preceeds the current one. "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isPrecededBy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#isStepOfPlan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/net/p-plan#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isStepOfPlan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Plan"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "p-plan:isStepOfPlan links a p-plan:Step to the p-plan:Plan which it corresponds to."
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#isSubPlanOfPlan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/net/p-plan#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isSubPlanOfPlan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "A p-plan:Plan may be a subplan of another bigger p-plan:Plan. p-plan:isSubPlanOfPlan is used to state the link among the two different plans. Note that if p1 is a p-plan:subPlan of p2, p1will not necessarily be a step of p2. A multistep will represent p1 in p2, and link to p1 with the p-plan.hasStepDecomposition relationship."
+  } ]
+}, {
+  "@id" : "http://purl.org/net/p-plan#isVariableOfPlan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Variable"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://purl.org/net/p-plan#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isVariableofPlan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Plan"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "p-plan:IsVariableOfPlan binds a p-plan:Variable to the p-plan:Plan it corresponds to."
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/Quantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "A quantity is the measurement of an observable property of a particular object, event, or physical system. A quantity is always associated with the context of measurement (i.e. the thing measured, the measured value, the accuracy of measurement, etc.) whereas the underlying quantity kind is independent of any particular measurement. Thus, length is a quantity kind while the height of a rocket is a specific quantity of length; its magnitude that may be expressed in meters, feet, inches, etc. Examples of physical quantities include physical constants, such as the speed of light in a vacuum, Planck's constant, the electric permittivity of free space, and the fine structure constant.\n\nIn other words, quantities are quantifiable aspects of the world, such as the duration of a movie, the distance between two points, velocity of a car, the pressure of the atmosphere, and a person's weight; and units are used to describe their numerical measure.\n\nMany quantity kinds are related to each other by various physical laws, and as a result, the associated units of some quantity kinds can be expressed as products (or ratios) of powers of other quantity kinds (e.g., momentum is mass times velocity and velocity is defined as distance divided by time). In this way, some quantities can be calculated from other measured quantities using their associations to the quantity kinds in these expressions. These quantity kind relationships are also discussed in dimensional analysis. Those that cannot be so expressed can be regarded as \"fundamental\" in this sense.\n\nA quantity is distinguished from a \"quantity kind\" in that the former carries a value and the latter is a type specifier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://qudt.org/schema/qudt/qudt:Concept"
+  }, {
+    "@id" : "_:genid52"
+  }, {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/QuantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://qudt.org/schema/qudt/qudt:Concept"
+  }, {
+    "@id" : "_:genid54"
+  } ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/QuantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://qudt.org/schema/qudt/qudt:Concept"
+  }, {
+    "@id" : "_:genid55"
+  } ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/applicableUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/hasQuantityKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://qudt.org/schema/qudt/Quantity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://qudt.org/schema/qudt/QuantityKind"
+  } ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/quantityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://qudt.org/schema/qudt/Quantity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://qudt.org/schema/qudt/QuantityValue"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#License" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Alejandro Calleja Herrador (version 1.0.0)"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Alejandro Calleja Herrador"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The Coffee Ontology provides elements for coffee classification, description of coffee creation processes and farming requirements and considerations."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@value" : "2023-11-14"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "es",
+    "@value" : "La Ontología del Café"
+  }, {
+    "@language" : "en",
+    "@value" : "The Coffee Ontology"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "cfe"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://www.semanticweb.org/coffee-ontology#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "Version 1.0.0 - 2023-11-14"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Altitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://qudt.org/schema/qudt/QuantityKind"
+  }, {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Celsius",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://qudt.org/schema/qudt/Unit"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Coffea_arabica_var._bourbon_Rodr._ex_Choussy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subspecies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La variedad Borbón proviene de los cafés arábigos que pasaron del Yemen a las colonias francesas  en la isla de Bourbon en África (hoy es el país de Reunión). De allí el cultivo se extendió a Kenia y Tanzania."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Bourbon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13443"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subspecies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "La variedad Tipyca o Típica, es el arábigo original proveniente del Yemen que fue llevado por los holandeses a principios de 1700 hasta la isla de Java y las islas circundantes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Típica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_13443"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Coffea_barako",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Kapeng barako (en español: café varraco o café verraco), también conocido como café Barako o café Batangas, es una variedad de café cultivada en Filipinas, especialmente en las provincias de Batangas y Cavite. Pertenece a la especie Coffea liberica. El término también se utiliza para referirse a todo el café procedente de esas provincias. Barako en las lenguas de Filipinas significa \"semental\", y se asocia a la imagen de la masculinidad. El barako tiene un sabor fuerte y una fragancia que recuerda al anís."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Varraco"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49373"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Conilón"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49390"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Coffea_excelsa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "A principios del siglo XX se descubrió una planta de café muy parecida a la del café libérica tanto que desde hace ya unos años podemos decir que son la misma variedad, lo que cambia es la calidad, ya que el café excelsa cuenta con frutos más pequeños y con un grano de menor calidad. Su origen fue en el Lago Chad, en la frontera entre Chad, Nigeria, Níger y Camerún. Se llamó cafe excelsa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Excelsa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49373"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Coffee_Kouilloi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Kouilloi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49390"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Coffee_Niaouli",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Niaouli"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49390"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Coffee_Uganda",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Cafeto Uganda"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_49390"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Meter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://qudt.org/schema/qudt/Unit"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Milimeter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://qudt.org/schema/qudt/Unit"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Plantae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/ncbitaxon#has_rank" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_kingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Plantas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Precipitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://qudt.org/schema/qudt/QuantityKind"
+  }, {
+    "@id" : "_:genid57"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://qudt.org/schema/qudt/QuantityKind"
+  }, {
+    "@id" : "_:genid58"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_altitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://qudt.org/schema/qudt/Quantity"
+  }, {
+    "@id" : "_:genid59"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.geonames.org/ontology#GeonamesFeature"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://qudt.org/schema/qudt/Quantity"
+  }, {
+    "@id" : "_:genid60"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://qudt.org/schema/qudt/Quantity"
+  }, {
+    "@id" : "_:genid61"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid62"
+  }, {
+    "@id" : "_:genid69"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#coffee_production_plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/net/p-plan#Plan"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/net/p-plan#Entity"
+  }, {
+    "@id" : "_:genid70"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity_coffea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity"
+  }, {
+    "@id" : "_:genid71"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity_coffee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity"
+  }, {
+    "@id" : "_:genid72"
+  }, {
+    "@id" : "_:genid73"
+  }, {
+    "@id" : "_:genid74"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_percolado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Percolado de agua caliente para la obtención de café"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Actividad Percolado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/net/p-plan#Activity"
+  }, {
+    "@id" : "_:genid75"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_step",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  }, {
+    "@id" : "_:genid76"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_step_final",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_step"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_step_initial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_step"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_variable",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/net/p-plan#Variable"
+  }, {
+    "@id" : "_:genid77"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_variable_final",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_variable"
+  }, {
+    "@id" : "_:genid78"
+  }, {
+    "@id" : "_:genid79"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#cpp_variable_initial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#cpp_variable"
+  }, {
+    "@id" : "_:genid80"
+  }, {
+    "@id" : "_:genid81"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#has_rank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#region_any",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#region_ecuatorial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region"
+  } ]
+}, {
+  "@id" : "http://w3id.org/def/coffeeontology#region_subtropical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region"
+  } ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#qualifiedCardinality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#historyNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is in scheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Relates a resource (for example a concept) to a concept scheme in which it is included."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "A concept may be a member of more than one concept scheme."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#notation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Used to store the values of feature codes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "notation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "By convention, skos:notation is used with a typed literal in the object position of the triple."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is in semantic relation with"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Links a concept to a concept related by meaning."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#scopeNote" : [ {
+    "@language" : "en",
+    "@value" : "This property should not be used directly, but as a super-property for all properties denoting a relationship of meaning between concepts."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#used",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://qudt.org/schema/qudt/Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://qudt.org/schema/qudt/qudt:Concept"
+  }, {
+    "@id" : "_:genid82"
+  } ]
+}, {
+  "@id" : "https://qudt.org/schema/qudt/hasUnit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "This property relates a system of units with a unit of measure that is either a) defined by the system, or b) accepted for use by the system and is convertible to a unit of equivalent dimension that is defined by the system. Systems of units may distinguish between base and derived units. Base units are the units which measure the base quantities for the corresponding system of quantities. The base units are used to define units for all other quantities as products of powers of the base units. Such units are called derived units for the system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://qudt.org/schema/qudt/Unit"
+  } ]
+}, {
+  "@id" : "https://qudt.org/schema/qudt/qudt:Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A geographical feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://schema.org/Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#historyNote" : [ {
+    "@language" : "en",
+    "@value" : "Modified in version 3.1 : The cardinality constraints on feature code, feature class are relaxed on this class, and put on the specific subclass Geonames Feature. This class and attached properties can therefore be used for features not necessarily identified in the Geoanmes data base"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#GeonamesFeature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A feature described in geonames database, uniquely defined by its geonames identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Geonames Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  }, {
+    "@id" : "_:genid83"
+  }, {
+    "@id" : "_:genid84"
+  }, {
+    "@id" : "_:genid85"
+  }, {
+    "@id" : "_:genid86"
+  }, {
+    "@id" : "_:genid87"
+  }, {
+    "@id" : "_:genid88"
+  }, {
+    "@id" : "_:genid89"
+  }, {
+    "@id" : "_:genid90"
+  }, {
+    "@id" : "_:genid91"
+  }, {
+    "@id" : "_:genid92"
+  }, {
+    "@id" : "_:genid93"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#historyNote" : [ {
+    "@language" : "en",
+    "@value" : "Added in version 3.1"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#alternateName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#colloquialName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "colloquial name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://www.geonames.org/ontology#alternateName"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#countryCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A two letters country code in the ISO 3166 list"
+  }, {
+    "@language" : "en",
+    "@value" : "The countryCode value for a Geoname Feature is equal to the countryCode value of the parentCountry value."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ISO country code"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#featureClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#geonamesID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geonames identifier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/terms/identifier"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#historyNote" : [ {
+    "@language" : "en",
+    "@value" : "Added in version 3.1"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#historicalName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "historical name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://www.geonames.org/ontology#alternateName"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#lat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "latitude of a feature (decimal degrees)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "latitude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#locatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates that the subject resource is located in the object feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "located in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#long",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "longitude of a feature (decimal degrees)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "longitude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#long"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The main international name of a feature. The value has no xml:lang tag."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "name"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#officialName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A name in an official local language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "official name"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#parentADM1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#parentADM2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#parentADM3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#parentADM4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#population",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "population"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#postalCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "postal code"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/ontology#shortName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://www.geonames.org/ontology#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "short name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://www.geonames.org/ontology#alternateName"
+  } ]
+} ]
