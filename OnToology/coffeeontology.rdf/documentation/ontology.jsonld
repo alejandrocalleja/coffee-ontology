@@ -29,18 +29,6 @@
     "@value" : "eucaryotes"
   } ]
 }, {
-  "@id" : "_:genid101",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "http://w3id.org/def/coffeeontology#region_any"
-    }, {
-      "@id" : "http://w3id.org/def/coffeeontology#region_ecuatorial"
-    }, {
-      "@id" : "http://w3id.org/def/coffeeontology#region_subtropical"
-    } ]
-  } ]
-}, {
   "@id" : "_:genid11",
   "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
   "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : [ {
@@ -1010,41 +998,42 @@
 }, {
   "@id" : "_:genid83",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#featureClass"
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
   } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#geonamesID"
   } ]
 }, {
   "@id" : "_:genid84",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#parentADM1"
+    "@id" : "https://www.geonames.org/ontology#lat"
   } ]
 }, {
   "@id" : "_:genid85",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#parentADM2"
+    "@id" : "https://www.geonames.org/ontology#long"
   } ]
 }, {
   "@id" : "_:genid86",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
+  "http://www.w3.org/2002/07/owl#cardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#parentADM3"
+    "@id" : "https://www.geonames.org/ontology#name"
   } ]
 }, {
   "@id" : "_:genid87",
@@ -1054,27 +1043,23 @@
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#parentADM4"
+    "@id" : "https://www.geonames.org/ontology#countryCode"
   } ]
 }, {
   "@id" : "_:genid88",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#geonamesID"
+    "@id" : "https://www.geonames.org/ontology#population"
   } ]
 }, {
   "@id" : "_:genid89",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#cardinality" : [ {
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#lat"
   } ]
 }, {
   "@id" : "_:genid9",
@@ -1093,58 +1078,12 @@
   } ]
 }, {
   "@id" : "_:genid90",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#cardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#long"
-  } ]
-}, {
-  "@id" : "_:genid91",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#cardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#name"
-  } ]
-}, {
-  "@id" : "_:genid92",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#countryCode"
-  } ]
-}, {
-  "@id" : "_:genid93",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#maxCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://www.geonames.org/ontology#population"
-  } ]
-}, {
-  "@id" : "_:genid94",
   "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
     "@value" : "8"
   } ]
 }, {
-  "@id" : "_:genid95",
-  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-    "@value" : "1"
-  } ]
-}, {
-  "@id" : "_:genid96",
+  "@id" : "_:genid91",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -2302,6 +2241,9 @@
   "@id" : "http://purl.org/dc/terms/issued",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/modified",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -2345,10 +2287,22 @@
   } ]
 }, {
   "@id" : "http://purl.org/net/p-plan#correspondsToStep",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Step"
+  } ]
 }, {
   "@id" : "http://purl.org/net/p-plan#correspondsToVariable",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/net/p-plan#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/net/p-plan#Variable"
+  } ]
 }, {
   "@id" : "http://purl.org/net/p-plan#hasInputVar",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
@@ -2576,7 +2530,10 @@
   } ]
 }, {
   "@id" : "http://qudt.org/schema/qudt/applicableUnit",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://qudt.org/schema/qudt/Unit"
+  } ]
 }, {
   "@id" : "http://qudt.org/schema/qudt/hasQuantityKind",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
@@ -2598,9 +2555,6 @@
 }, {
   "@id" : "http://w3id.org/def/coffeeontology",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://creativecommons.org/ns#License" : [ {
-    "@value" : "https://creativecommons.org/licenses/by/4.0/"
-  } ],
   "http://purl.org/dc/terms/contributor" : [ {
     "@value" : "Alejandro Calleja Herrador (version 1.0.0)"
   } ],
@@ -2609,17 +2563,20 @@
   } ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
-    "@value" : "The Coffee Ontology provides elements for coffee classification, description of coffee creation processes and farming requirements and considerations."
+    "@value" : "The Coffea Ontology provides elements for coffee classification, description of coffee creation processes and farming requirements and considerations."
   } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@value" : "2023-11-14"
   } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "es",
-    "@value" : "La Ontología del Café"
+    "@value" : "La Ontología del Cafeto"
   }, {
     "@language" : "en",
-    "@value" : "The Coffee Ontology"
+    "@value" : "The Coffea Ontology"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@value" : "cfe"
@@ -2628,10 +2585,10 @@
     "@value" : "http://www.semanticweb.org/coffee-ontology#"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://w3id.org/def/coffeeontology/1.0.0"
+    "@id" : "http://w3id.org/def/coffeeontology/1.0.1"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
-    "@value" : "Version 1.0.0 - 2023-11-14"
+    "@value" : "Version 1.0.1 - 2023-11-14"
   } ]
 }, {
   "@id" : "http://w3id.org/def/coffeeontology#Altitude",
@@ -2826,6 +2783,10 @@
 }, {
   "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Región de Cultivo de Cafetos"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "_:genid62"
   }, {
@@ -2932,20 +2893,23 @@
 }, {
   "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRegion",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
   "@id" : "http://w3id.org/def/coffeeontology#hasFarmingRequirement",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region"
+  } ]
 }, {
   "@id" : "http://w3id.org/def/coffeeontology#has_rank",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "http://w3id.org/def/coffeeontology#region_any",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://w3id.org/def/coffeeontology#coffea_farming_region"
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_131567"
   } ]
 }, {
   "@id" : "http://w3id.org/def/coffeeontology#region_ecuatorial",
@@ -3115,7 +3079,13 @@
   } ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/name",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://geovocab.org/spatial#Feature"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://www.geonames.org/ontology#name"
+  } ]
 }, {
   "@id" : "https://qudt.org/schema/qudt/Unit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -3183,16 +3153,6 @@
     "@id" : "_:genid87"
   }, {
     "@id" : "_:genid88"
-  }, {
-    "@id" : "_:genid89"
-  }, {
-    "@id" : "_:genid90"
-  }, {
-    "@id" : "_:genid91"
-  }, {
-    "@id" : "_:genid92"
-  }, {
-    "@id" : "_:genid93"
   } ],
   "http://www.w3.org/2004/02/skos/core#historyNote" : [ {
     "@language" : "en",
@@ -3207,6 +3167,9 @@
 }, {
   "@id" : "https://www.geonames.org/ontology#colloquialName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://geovocab.org/spatial#Feature"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "colloquial name"
@@ -3232,11 +3195,11 @@
     "@value" : "ISO country code"
   } ]
 }, {
-  "@id" : "https://www.geonames.org/ontology#featureClass",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
   "@id" : "https://www.geonames.org/ontology#geonamesID",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://geovocab.org/spatial#Feature"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "geonames identifier"
@@ -3251,6 +3214,9 @@
 }, {
   "@id" : "https://www.geonames.org/ontology#historicalName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://geovocab.org/spatial#Feature"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "historical name"
@@ -3330,18 +3296,6 @@
     "@language" : "en",
     "@value" : "official name"
   } ]
-}, {
-  "@id" : "https://www.geonames.org/ontology#parentADM1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "https://www.geonames.org/ontology#parentADM2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "https://www.geonames.org/ontology#parentADM3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
-}, {
-  "@id" : "https://www.geonames.org/ontology#parentADM4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "https://www.geonames.org/ontology#population",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],

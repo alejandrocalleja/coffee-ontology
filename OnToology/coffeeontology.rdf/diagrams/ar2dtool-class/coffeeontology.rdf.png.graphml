@@ -5,7 +5,7 @@
    <key for="edge" id="d2" yfiles.type="edgegraphics" />
    <key attr.name="description" attr.type="string" for="edge" id="d3" />
    <key for="graphml" id="d4" yfiles.type="resources" />
-   <graph edgedefault="directed" id="G" parse.edges="165" parse.nodes="145" parse.order="free">
+   <graph edgedefault="directed" id="G" parse.edges="164" parse.nodes="137" parse.order="free">
       <node id="nid_http://purl.obolibrary.org/obo/NCBITaxon_24966">
          <data key="d0">
             <y:ShapeNode>
@@ -738,19 +738,19 @@
          </data>
          <data key="d1" />
       </node>
-      <node id="nid_http://w3id.org/def/coffeeontology/1.0.0">
+      <node id="nid_http://w3id.org/def/coffeeontology/1.0.1">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="400.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology/1.0.0</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology/1.0.1</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:versionIRI24" source="nid_http://w3id.org/def/coffeeontology" target="nid_http://w3id.org/def/coffeeontology/1.0.0">
+    <edge id="eid_owl:versionIRI24" source="nid_http://w3id.org/def/coffeeontology" target="nid_http://w3id.org/def/coffeeontology/1.0.1">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -889,29 +889,6 @@
          </data>
          <data key="d1" />
       </node>
-      <node id="nid_https://www.geonames.org/ontology#featureClass">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="460.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://www.geonames.org/ontology#featureClass</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty29" source="nid_NULL" target="nid_https://www.geonames.org/ontology#featureClass">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
       <node id="nid_ncbitaxon:common_name">
          <data key="d0">
             <y:ShapeNode>
@@ -924,7 +901,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_oboInOwl:hasSynonymType30" source="nid_NULL" target="nid_ncbitaxon:common_name">
+    <edge id="eid_oboInOwl:hasSynonymType29" source="nid_NULL" target="nid_ncbitaxon:common_name">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -947,30 +924,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty31" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#hasFarmingRegion">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_prov:wasGeneratedBy">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">prov:wasGeneratedBy</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty32" source="nid_NULL" target="nid_prov:wasGeneratedBy">
+    <edge id="eid_owl:onProperty30" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#hasFarmingRegion">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -993,7 +947,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom33" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_step_final">
+    <edge id="eid_owl:allValuesFrom31" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_step_final">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1004,7 +958,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty34" source="nid_NULL" target="nid_https://www.geonames.org/ontology#lat">
+    <edge id="eid_owl:onProperty32" source="nid_NULL" target="nid_https://www.geonames.org/ontology#lat">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1027,7 +981,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty35" source="nid_NULL" target="nid_http://purl.org/net/p-plan#isStepOfPlan">
+    <edge id="eid_owl:onProperty33" source="nid_NULL" target="nid_http://purl.org/net/p-plan#isStepOfPlan">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1050,12 +1004,35 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_oboInOwl:hasSynonymType36" source="nid_NULL" target="nid_ncbitaxon:synonym">
+    <edge id="eid_oboInOwl:hasSynonymType34" source="nid_NULL" target="nid_ncbitaxon:synonym">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">oboInOwl:hasSynonymType</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_prov:wasGeneratedBy">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">prov:wasGeneratedBy</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:onProperty35" source="nid_NULL" target="nid_prov:wasGeneratedBy">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1073,7 +1050,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_oboInOwl:hasSynonymType37" source="nid_NULL" target="nid_ncbitaxon:in_part">
+    <edge id="eid_oboInOwl:hasSynonymType36" source="nid_NULL" target="nid_ncbitaxon:in_part">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1084,70 +1061,24 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7f95">
+      <node id="nid_6eeada54:18bca5a2607:-7f9f">
          <data key="d0">
             <y:ShapeNode>
                <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7f95</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">6eeada54:18bca5a2607:-7f9f</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest38" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7f95">
+    <edge id="eid_rdf:rest37" source="nid_NULL" target="nid_6eeada54:18bca5a2607:-7f9f">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7fbd">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7fbd</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:intersectionOf39" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7fbd">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:intersectionOf</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7f9c">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7f9c</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:members40" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7f9c">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:members</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1165,35 +1096,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:annotatedSource41" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_49373">
+    <edge id="eid_owl:annotatedSource38" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_49373">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:annotatedSource</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_http://w3id.org/def/coffeeontology#region_any">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="450.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#region_any</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:first42" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#region_any">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1211,7 +1119,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom43" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/QuantityKind">
+    <edge id="eid_owl:someValuesFrom39" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/QuantityKind">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1234,35 +1142,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first44" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Coffee_Kouilloi">
+    <edge id="eid_rdf:first40" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Coffee_Kouilloi">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_https://qudt.org/schema/qudt/hasUnit">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="360.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://qudt.org/schema/qudt/hasUnit</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty45" source="nid_NULL" target="nid_https://qudt.org/schema/qudt/hasUnit">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1280,7 +1165,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom46" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Milimeter">
+    <edge id="eid_owl:allValuesFrom41" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Milimeter">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1291,24 +1176,24 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7f9a">
+      <node id="nid_https://qudt.org/schema/qudt/hasUnit">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="360.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7f9a</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://qudt.org/schema/qudt/hasUnit</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest47" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7f9a">
+    <edge id="eid_owl:onProperty42" source="nid_NULL" target="nid_https://qudt.org/schema/qudt/hasUnit">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1326,7 +1211,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom48" source="nid_NULL" target="nid_http://purl.org/net/p-plan#Variable">
+    <edge id="eid_owl:someValuesFrom43" source="nid_NULL" target="nid_http://purl.org/net/p-plan#Variable">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1349,7 +1234,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty49" source="nid_NULL" target="nid_https://www.geonames.org/ontology#population">
+    <edge id="eid_owl:onProperty44" source="nid_NULL" target="nid_https://www.geonames.org/ontology#population">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1360,35 +1245,12 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:annotatedSource50" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_58023">
+    <edge id="eid_owl:annotatedSource45" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_58023">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:annotatedSource</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_https://www.geonames.org/ontology#parentADM4">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://www.geonames.org/ontology#parentADM4</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty51" source="nid_NULL" target="nid_https://www.geonames.org/ontology#parentADM4">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1406,7 +1268,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:annotatedSource52" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_3193">
+    <edge id="eid_owl:annotatedSource46" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_3193">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1429,7 +1291,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom53" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_region">
+    <edge id="eid_owl:someValuesFrom47" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_region">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1440,7 +1302,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty54" source="nid_NULL" target="nid_https://www.geonames.org/ontology#long">
+    <edge id="eid_owl:onProperty48" source="nid_NULL" target="nid_https://www.geonames.org/ontology#long">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1463,35 +1325,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty55" source="nid_NULL" target="nid_http://purl.org/net/p-plan#correspondsToStep">
+    <edge id="eid_owl:onProperty49" source="nid_NULL" target="nid_http://purl.org/net/p-plan#correspondsToStep">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7f99">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7f99</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest56" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7f99">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1509,7 +1348,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom57" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature">
+    <edge id="eid_owl:someValuesFrom50" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_optimalTemperature">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1520,30 +1359,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_http://w3id.org/def/coffeeontology#region_subtropical">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="530.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#region_subtropical</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:first58" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#region_subtropical">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:annotatedSource59" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_71274">
+    <edge id="eid_owl:annotatedSource51" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_71274">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1554,7 +1370,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:annotatedSource60" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_71240">
+    <edge id="eid_owl:annotatedSource52" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_71240">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1577,7 +1393,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty61" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/quantityValue">
+    <edge id="eid_owl:onProperty53" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/quantityValue">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1600,7 +1416,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom62" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Temperature">
+    <edge id="eid_owl:allValuesFrom54" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Temperature">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1623,7 +1439,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom63" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/QuantityValue">
+    <edge id="eid_owl:allValuesFrom55" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/QuantityValue">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1646,7 +1462,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom64" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_altitude">
+    <edge id="eid_owl:someValuesFrom56" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_altitude">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1669,35 +1485,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first65" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher">
+    <edge id="eid_rdf:first57" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Coffea_canephora_Pierre_Ex_Froenher">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7f97">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7f97</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:members66" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7f97">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:members</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1715,7 +1508,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom67" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Celsius">
+    <edge id="eid_owl:allValuesFrom58" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Celsius">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1738,12 +1531,35 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_oboInOwl:hasSynonymType68" source="nid_NULL" target="nid_ncbitaxon:genbank_common_name">
+    <edge id="eid_oboInOwl:hasSynonymType59" source="nid_NULL" target="nid_ncbitaxon:genbank_common_name">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">oboInOwl:hasSynonymType</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_6eeada54:18bca5a2607:-7fb9">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">6eeada54:18bca5a2607:-7fb9</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest60" source="nid_NULL" target="nid_6eeada54:18bca5a2607:-7fb9">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1761,7 +1577,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom69" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage">
+    <edge id="eid_owl:someValuesFrom61" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_optimalAnualRainingAverage">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1784,7 +1600,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty70" source="nid_NULL" target="nid_http://purl.org/net/p-plan#hasInputVar">
+    <edge id="eid_owl:onProperty62" source="nid_NULL" target="nid_http://purl.org/net/p-plan#hasInputVar">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1795,7 +1611,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:annotatedSource71" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_49390">
+    <edge id="eid_owl:annotatedSource63" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_49390">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1818,7 +1634,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom72" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Meter">
+    <edge id="eid_owl:allValuesFrom64" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Meter">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1841,7 +1657,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:annotatedSource73" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_13443">
+    <edge id="eid_owl:annotatedSource65" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_13443">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1864,7 +1680,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty74" source="nid_NULL" target="nid_http://purl.org/net/p-plan#correspondsToVariable">
+    <edge id="eid_owl:onProperty66" source="nid_NULL" target="nid_http://purl.org/net/p-plan#correspondsToVariable">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1875,7 +1691,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onClass75" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/QuantityKind">
+    <edge id="eid_owl:onClass67" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/QuantityKind">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1886,7 +1702,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:annotatedSource76" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_78536">
+    <edge id="eid_owl:annotatedSource68" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_78536">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1909,7 +1725,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:annotatedSource77" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_33090">
+    <edge id="eid_owl:annotatedSource69" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_33090">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1920,24 +1736,47 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_https://www.geonames.org/ontology#parentADM2">
+      <node id="nid_6eeada54:18bca5a2607:-7f9e">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://www.geonames.org/ontology#parentADM2</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">6eeada54:18bca5a2607:-7f9e</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty78" source="nid_NULL" target="nid_https://www.geonames.org/ontology#parentADM2">
+    <edge id="eid_rdf:rest70" source="nid_NULL" target="nid_6eeada54:18bca5a2607:-7f9e">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_6eeada54:18bca5a2607:-7fa1">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">6eeada54:18bca5a2607:-7fa1</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:members71" source="nid_NULL" target="nid_6eeada54:18bca5a2607:-7fa1">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:members</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -1955,7 +1794,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom79" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Altitude">
+    <edge id="eid_owl:allValuesFrom72" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Altitude">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -1978,58 +1817,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty80" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#hasFarmingRequirement">
+    <edge id="eid_owl:onProperty73" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#hasFarmingRequirement">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_https://www.geonames.org/ontology#parentADM3">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://www.geonames.org/ontology#parentADM3</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty81" source="nid_NULL" target="nid_https://www.geonames.org/ontology#parentADM3">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7fb9">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7fb9</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest82" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7fb9">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2047,7 +1840,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first83" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Coffee_Niaouli">
+    <edge id="eid_rdf:first74" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Coffee_Niaouli">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2070,7 +1863,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:annotatedProperty84" source="nid_NULL" target="nid_oboInOwl:hasRelatedSynonym">
+    <edge id="eid_owl:annotatedProperty75" source="nid_NULL" target="nid_oboInOwl:hasRelatedSynonym">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2093,7 +1886,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:rest85" source="nid_NULL" target="nid_rdf:nil">
+    <edge id="eid_rdf:rest76" source="nid_NULL" target="nid_rdf:nil">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2116,35 +1909,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdf:first86" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Coffee_Uganda">
+    <edge id="eid_rdf:first77" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Coffee_Uganda">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_http://w3id.org/def/coffeeontology#cpp_percolado">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="480.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#cpp_percolado</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:allValuesFrom87" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_percolado">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:allValuesFrom</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2162,7 +1932,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom88" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_variable_final">
+    <edge id="eid_owl:allValuesFrom78" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_variable_final">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2173,7 +1943,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:onProperty89" source="nid_NULL" target="nid_https://www.geonames.org/ontology#geonamesID">
+      <node id="nid_http://w3id.org/def/coffeeontology#cpp_percolado">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="480.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#cpp_percolado</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:allValuesFrom79" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_percolado">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:allValuesFrom</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:onProperty80" source="nid_NULL" target="nid_https://www.geonames.org/ontology#geonamesID">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2196,7 +1989,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty90" source="nid_NULL" target="nid_https://www.geonames.org/ontology#locatedIn">
+    <edge id="eid_owl:onProperty81" source="nid_NULL" target="nid_https://www.geonames.org/ontology#locatedIn">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2219,7 +2012,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom91" source="nid_NULL" target="nid_http://purl.org/net/p-plan#Step">
+    <edge id="eid_owl:someValuesFrom82" source="nid_NULL" target="nid_http://purl.org/net/p-plan#Step">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2230,30 +2023,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7fbb">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7fbb</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest92" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7fbb">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:onClass93" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_altitude">
+    <edge id="eid_owl:onClass83" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_altitude">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2276,7 +2046,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_oboInOwl:hasSynonymType94" source="nid_NULL" target="nid_ncbitaxon:blast_name">
+    <edge id="eid_oboInOwl:hasSynonymType84" source="nid_NULL" target="nid_ncbitaxon:blast_name">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2287,7 +2057,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:annotatedSource95" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_91888">
+    <edge id="eid_owl:annotatedSource85" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_91888">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2310,7 +2080,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:annotatedSource96" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_13442">
+    <edge id="eid_owl:annotatedSource86" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_13442">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2333,81 +2103,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty97" source="nid_NULL" target="nid_http://purl.org/net/p-plan#isOutputVarOf">
+    <edge id="eid_owl:onProperty87" source="nid_NULL" target="nid_http://purl.org/net/p-plan#isOutputVarOf">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_http://w3id.org/def/coffeeontology#region_ecuatorial">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="520.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#region_ecuatorial</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:first98" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#region_ecuatorial">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:first</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_http://w3id.org/def/coffeeontology#coffea_farming_country">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="570.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#coffea_farming_country</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:someValuesFrom99" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_country">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:someValuesFrom</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7f96">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7f96</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest100" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7f96">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2425,12 +2126,35 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom101" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_variable_initial">
+    <edge id="eid_owl:allValuesFrom88" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_variable_initial">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:allValuesFrom</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://w3id.org/def/coffeeontology#coffea_farming_country">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="570.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#coffea_farming_country</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:someValuesFrom89" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_country">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:someValuesFrom</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2448,35 +2172,12 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:annotatedSource102" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_3398">
+    <edge id="eid_owl:annotatedSource90" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_3398">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:annotatedSource</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-      <node id="nid_62811413:18bc4bddfc4:-7f9b">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">62811413:18bc4bddfc4:-7f9b</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_rdf:rest103" source="nid_NULL" target="nid_62811413:18bc4bddfc4:-7f9b">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2494,7 +2195,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty104" source="nid_NULL" target="nid_https://www.geonames.org/ontology#name">
+    <edge id="eid_owl:onProperty91" source="nid_NULL" target="nid_https://www.geonames.org/ontology#name">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2517,7 +2218,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty105" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/hasQuantityKind">
+    <edge id="eid_owl:onProperty92" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/hasQuantityKind">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2528,7 +2229,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:annotatedSource106" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_58024">
+    <edge id="eid_owl:annotatedSource93" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_58024">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2539,19 +2240,19 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_https://www.geonames.org/ontology#parentADM1">
+      <node id="nid_prov:wasDerivedFrom">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="440.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">https://www.geonames.org/ontology#parentADM1</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">prov:wasDerivedFrom</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty107" source="nid_NULL" target="nid_https://www.geonames.org/ontology#parentADM1">
+    <edge id="eid_owl:onProperty94" source="nid_NULL" target="nid_prov:wasDerivedFrom">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2574,7 +2275,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom108" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Precipitation">
+    <edge id="eid_owl:allValuesFrom95" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#Precipitation">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2585,30 +2286,7 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_prov:wasDerivedFrom">
-         <data key="d0">
-            <y:ShapeNode>
-               <y:Geometry height="30.0" width="190.0" x="0.0" y="0.0" />
-               <y:Fill color="#FFFFFF" transparent="false" />
-               <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">prov:wasDerivedFrom</y:NodeLabel>
-               <y:Shape type="rectangle" />
-            </y:ShapeNode>
-         </data>
-         <data key="d1" />
-      </node>
-    <edge id="eid_owl:onProperty109" source="nid_NULL" target="nid_prov:wasDerivedFrom">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:annotatedSource110" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_24966">
+    <edge id="eid_owl:annotatedSource96" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_24966">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2619,7 +2297,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:annotatedSource111" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_2759">
+    <edge id="eid_owl:annotatedSource97" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_2759">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2630,18 +2308,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_owl:annotatedSource112" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_91827">
-         <data key="d2">
-            <y:PolyLineEdge>
-               <y:LineStyle color="black" type="line" width="1.0" />
-               <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:annotatedSource</y:EdgeLabel>
-               <y:BendStyle smoothed="false" />
-            </y:PolyLineEdge>
-         </data>
-         <data key="d3" />
-      </edge>
-    <edge id="eid_owl:annotatedSource113" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_131221">
+    <edge id="eid_owl:annotatedSource98" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_91827">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2664,12 +2331,23 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty114" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/applicableUnit">
+    <edge id="eid_owl:onProperty99" source="nid_NULL" target="nid_http://qudt.org/schema/qudt/applicableUnit">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_owl:annotatedSource100" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_131221">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:annotatedSource</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2687,7 +2365,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:annotatedSource115" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_131567">
+    <edge id="eid_owl:annotatedSource101" source="nid_NULL" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_131567">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2710,12 +2388,35 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty116" source="nid_NULL" target="nid_https://www.geonames.org/ontology#countryCode">
+    <edge id="eid_owl:onProperty102" source="nid_NULL" target="nid_https://www.geonames.org/ontology#countryCode">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:onProperty</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_6eeada54:18bca5a2607:-7fbb">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">6eeada54:18bca5a2607:-7fbb</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest103" source="nid_NULL" target="nid_6eeada54:18bca5a2607:-7fbb">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2733,12 +2434,35 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_oboInOwl:hasSynonymType117" source="nid_NULL" target="nid_ncbitaxon:equivalent_name">
+    <edge id="eid_oboInOwl:hasSynonymType104" source="nid_NULL" target="nid_ncbitaxon:equivalent_name">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">oboInOwl:hasSynonymType</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_6eeada54:18bca5a2607:-7fa0">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">6eeada54:18bca5a2607:-7fa0</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_rdf:rest105" source="nid_NULL" target="nid_6eeada54:18bca5a2607:-7fa0">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">rdf:rest</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2756,7 +2480,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom118" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffee_production_plan">
+    <edge id="eid_owl:allValuesFrom106" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#coffee_production_plan">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2767,24 +2491,24 @@
          </data>
          <data key="d3" />
       </edge>
-      <node id="nid_skos:ConceptScheme">
+      <node id="nid_6eeada54:18bca5a2607:-7fbd">
          <data key="d0">
             <y:ShapeNode>
-               <y:Geometry height="30.0" width="180.0" x="0.0" y="0.0" />
+               <y:Geometry height="30.0" width="260.0" x="0.0" y="0.0" />
                <y:Fill color="#FFFFFF" transparent="false" />
                <y:BorderStyle color="#000000" type="line" width="1.0" />
-               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">skos:ConceptScheme</y:NodeLabel>
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">6eeada54:18bca5a2607:-7fbd</y:NodeLabel>
                <y:Shape type="rectangle" />
             </y:ShapeNode>
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom119" source="nid_NULL" target="nid_skos:ConceptScheme">
+    <edge id="eid_owl:intersectionOf107" source="nid_NULL" target="nid_6eeada54:18bca5a2607:-7fbd">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
-               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:someValuesFrom</y:EdgeLabel>
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:intersectionOf</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2802,7 +2526,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onClass120" source="nid_NULL" target="nid_https://qudt.org/schema/qudt/Unit">
+    <edge id="eid_owl:onClass108" source="nid_NULL" target="nid_https://qudt.org/schema/qudt/Unit">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2825,7 +2549,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:annotatedProperty121" source="nid_NULL" target="nid_oboInOwl:hasExactSynonym">
+    <edge id="eid_owl:annotatedProperty109" source="nid_NULL" target="nid_oboInOwl:hasExactSynonym">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2848,7 +2572,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:allValuesFrom122" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_step_initial">
+    <edge id="eid_owl:allValuesFrom110" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_step_initial">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2871,7 +2595,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:onProperty123" source="nid_NULL" target="nid_http://purl.org/net/p-plan#isVariableOfPlan">
+    <edge id="eid_owl:onProperty111" source="nid_NULL" target="nid_http://purl.org/net/p-plan#isVariableOfPlan">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2894,7 +2618,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:someValuesFrom124" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_variable">
+    <edge id="eid_owl:someValuesFrom112" source="nid_NULL" target="nid_http://w3id.org/def/coffeeontology#cpp_variable">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2905,12 +2629,35 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_ncbitaxon:has_rank125" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_13443" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_species">
+    <edge id="eid_ncbitaxon:has_rank113" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_13443" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_species">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
                <y:Arrows source="none" target="normal" />
                <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">ncbitaxon:has_rank</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://xmlns.com/foaf/0.1/name">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="300.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://xmlns.com/foaf/0.1/name</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_owl:equivalentProperty114" source="nid_http://xmlns.com/foaf/0.1/name" target="nid_https://www.geonames.org/ontology#name">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">owl:equivalentProperty</y:EdgeLabel>
                <y:BendStyle smoothed="false" />
             </y:PolyLineEdge>
          </data>
@@ -2928,7 +2675,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:seeAlso126" source="nid_https://www.geonames.org/ontology#Feature" target="nid_http://schema.org/Place">
+    <edge id="eid_rdfs:seeAlso115" source="nid_https://www.geonames.org/ontology#Feature" target="nid_http://schema.org/Place">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2939,7 +2686,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_ncbitaxon:has_rank127" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_3193" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_clade">
+    <edge id="eid_ncbitaxon:has_rank116" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_3193" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_clade">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2962,7 +2709,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_ncbitaxon:has_rank128" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_3398" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_class">
+    <edge id="eid_ncbitaxon:has_rank117" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_3398" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_class">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2973,7 +2720,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_rdfs:subPropertyOf129" source="nid_http://w3id.org/def/coffeeontology#hasFarmingRegion" target="nid_owl:topObjectProperty">
+    <edge id="eid_rdfs:subPropertyOf118" source="nid_http://w3id.org/def/coffeeontology#hasFarmingRegion" target="nid_owl:topObjectProperty">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -2996,7 +2743,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_owl:equivalentClass130" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_13442" target="nid_http://w3id.org/def/coffeeontology#cpp_bioentity_coffea">
+    <edge id="eid_owl:equivalentClass119" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_13442" target="nid_http://w3id.org/def/coffeeontology#cpp_bioentity_coffea">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3019,7 +2766,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_ncbitaxon:has_rank131" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_13442" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_genus">
+    <edge id="eid_ncbitaxon:has_rank120" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_13442" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_genus">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3030,7 +2777,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_ncbitaxon:has_rank132" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_49373" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_species">
+    <edge id="eid_ncbitaxon:has_rank121" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_49373" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_species">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3065,7 +2812,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_ncbitaxon:has_rank133" source="nid_http://w3id.org/def/coffeeontology#Plantae" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_kingdom">
+    <edge id="eid_ncbitaxon:has_rank122" source="nid_http://w3id.org/def/coffeeontology#Plantae" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_kingdom">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3076,7 +2823,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_ncbitaxon:has_rank134" source="nid_http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_subspecies">
+    <edge id="eid_ncbitaxon:has_rank123" source="nid_http://w3id.org/def/coffeeontology#Coffea_arabica_var._typica" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_subspecies">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3111,7 +2858,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:comment135" source="nid_http://purl.org/net/p-plan#isPrecededBy" target="nid_http://purl.org/net/p-plan#">
+    <edge id="eid_rdfs:comment124" source="nid_http://purl.org/net/p-plan#isPrecededBy" target="nid_http://purl.org/net/p-plan#">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3134,7 +2881,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_ncbitaxon:has_rank136" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_33090" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_subkingdom">
+    <edge id="eid_ncbitaxon:has_rank125" source="nid_http://purl.obolibrary.org/obo/NCBITaxon_33090" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_subkingdom">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3157,7 +2904,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_rdfs:subPropertyOf137" source="nid_https://www.geonames.org/ontology#colloquialName" target="nid_https://www.geonames.org/ontology#alternateName">
+    <edge id="eid_rdfs:subPropertyOf126" source="nid_https://www.geonames.org/ontology#colloquialName" target="nid_https://www.geonames.org/ontology#alternateName">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3180,7 +2927,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://www.geonames.org/ontology#officialName138" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
+    <edge id="eid_https://www.geonames.org/ontology#officialName127" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3203,7 +2950,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_http://purl.org/net/p-plan#isSubPlanOfPlan139" source="nid_http://purl.org/net/p-plan#Plan" target="nid_http://purl.org/net/p-plan#Plan">
+    <edge id="eid_http://purl.org/net/p-plan#isSubPlanOfPlan128" source="nid_http://purl.org/net/p-plan#Plan" target="nid_http://purl.org/net/p-plan#Plan">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3214,7 +2961,52 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://qudt.org/schema/qudt/hasUnit140" source="nid_owl:Thing" target="nid_https://qudt.org/schema/qudt/Unit">
+    <edge id="eid_http://xmlns.com/foaf/0.1/name129" source="nid_http://geovocab.org/spatial#Feature" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">http://xmlns.com/foaf/0.1/name</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_http://purl.org/net/p-plan#Entity">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="330.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFA500" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/net/p-plan#Entity</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_http://purl.org/net/p-plan#correspondsToVariable130" source="nid_http://purl.org/net/p-plan#Entity" target="nid_http://purl.org/net/p-plan#Variable">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">http://purl.org/net/p-plan#correspondsToVariable</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_https://www.geonames.org/ontology#geonamesID131" source="nid_http://geovocab.org/spatial#Feature" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">https://www.geonames.org/ontology#geonamesID</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_https://qudt.org/schema/qudt/hasUnit132" source="nid_owl:Thing" target="nid_https://qudt.org/schema/qudt/Unit">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3225,7 +3017,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://www.geonames.org/ontology#name141" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
+    <edge id="eid_http://w3id.org/def/coffeeontology#has_rank133" source="nid_owl:Thing" target="nid_http://purl.obolibrary.org/obo/NCBITaxon_131567">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#has_rank</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_https://www.geonames.org/ontology#name134" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3236,7 +3039,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://www.geonames.org/ontology#shortName142" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
+    <edge id="eid_https://www.geonames.org/ontology#shortName135" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3247,7 +3050,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_skos:inScheme143" source="nid_owl:Thing" target="nid_skos:ConceptScheme">
+    <edge id="eid_http://w3id.org/def/coffeeontology#hasFarmingRequirement136" source="nid_http://w3id.org/def/coffeeontology#coffea_farming_region" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#hasFarmingRequirement</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+      <node id="nid_skos:ConceptScheme">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="180.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFFFFF" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">skos:ConceptScheme</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_skos:inScheme137" source="nid_owl:Thing" target="nid_skos:ConceptScheme">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3258,7 +3084,30 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://www.geonames.org/ontology#countryCode144" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
+      <node id="nid_http://purl.org/net/p-plan#Activity">
+         <data key="d0">
+            <y:ShapeNode>
+               <y:Geometry height="30.0" width="350.0" x="0.0" y="0.0" />
+               <y:Fill color="#FFA500" transparent="false" />
+               <y:BorderStyle color="#000000" type="line" width="1.0" />
+               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">http://purl.org/net/p-plan#Activity</y:NodeLabel>
+               <y:Shape type="rectangle" />
+            </y:ShapeNode>
+         </data>
+         <data key="d1" />
+      </node>
+    <edge id="eid_http://purl.org/net/p-plan#correspondsToStep138" source="nid_http://purl.org/net/p-plan#Activity" target="nid_http://purl.org/net/p-plan#Step">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">http://purl.org/net/p-plan#correspondsToStep</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_https://www.geonames.org/ontology#countryCode139" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3269,7 +3118,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_http://purl.org/net/p-plan#hasInputVar145" source="nid_http://purl.org/net/p-plan#Step" target="nid_http://purl.org/net/p-plan#Variable">
+    <edge id="eid_http://purl.org/net/p-plan#hasInputVar140" source="nid_http://purl.org/net/p-plan#Step" target="nid_http://purl.org/net/p-plan#Variable">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3280,7 +3129,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://www.geonames.org/ontology#lat146" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
+    <edge id="eid_https://www.geonames.org/ontology#lat141" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3291,7 +3140,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_http://purl.org/net/p-plan#hasOutputVar147" source="nid_http://purl.org/net/p-plan#Step" target="nid_http://purl.org/net/p-plan#Variable">
+    <edge id="eid_http://purl.org/net/p-plan#hasOutputVar142" source="nid_http://purl.org/net/p-plan#Step" target="nid_http://purl.org/net/p-plan#Variable">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3326,7 +3175,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_prov:wasGeneratedBy148" source="nid_prov:Entity" target="nid_prov:Activity">
+    <edge id="eid_prov:wasGeneratedBy143" source="nid_prov:Entity" target="nid_prov:Activity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3337,7 +3186,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_http://purl.org/net/p-plan#isInputVarOf149" source="nid_http://purl.org/net/p-plan#Variable" target="nid_http://purl.org/net/p-plan#Step">
+    <edge id="eid_http://purl.org/net/p-plan#isInputVarOf144" source="nid_http://purl.org/net/p-plan#Variable" target="nid_http://purl.org/net/p-plan#Step">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3360,7 +3209,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_http://qudt.org/schema/qudt/quantityValue150" source="nid_http://qudt.org/schema/qudt/Quantity" target="nid_http://qudt.org/schema/qudt/QuantityValue">
+    <edge id="eid_http://qudt.org/schema/qudt/quantityValue145" source="nid_http://qudt.org/schema/qudt/Quantity" target="nid_http://qudt.org/schema/qudt/QuantityValue">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3371,7 +3220,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_prov:wasDerivedFrom151" source="nid_prov:Entity" target="nid_prov:Entity">
+    <edge id="eid_prov:wasDerivedFrom146" source="nid_prov:Entity" target="nid_prov:Entity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3382,7 +3231,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://www.geonames.org/ontology#postalCode152" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
+    <edge id="eid_https://www.geonames.org/ontology#postalCode147" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3405,7 +3254,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_http://purl.org/net/p-plan#isDecomposedAsPlan153" source="nid_http://purl.org/net/p-plan#MultiStep" target="nid_http://purl.org/net/p-plan#Plan">
+    <edge id="eid_http://purl.org/net/p-plan#isDecomposedAsPlan148" source="nid_http://purl.org/net/p-plan#MultiStep" target="nid_http://purl.org/net/p-plan#Plan">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3416,7 +3265,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_http://purl.org/net/p-plan#isPrecededBy154" source="nid_http://purl.org/net/p-plan#Step" target="nid_http://purl.org/net/p-plan#Step">
+    <edge id="eid_http://purl.org/net/p-plan#isPrecededBy149" source="nid_http://purl.org/net/p-plan#Step" target="nid_http://purl.org/net/p-plan#Step">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3427,7 +3276,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_http://purl.org/net/p-plan#isStepOfPlan155" source="nid_http://purl.org/net/p-plan#Step" target="nid_http://purl.org/net/p-plan#Plan">
+    <edge id="eid_https://www.geonames.org/ontology#historicalName150" source="nid_http://geovocab.org/spatial#Feature" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">https://www.geonames.org/ontology#historicalName</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_http://purl.org/net/p-plan#isStepOfPlan151" source="nid_http://purl.org/net/p-plan#Step" target="nid_http://purl.org/net/p-plan#Plan">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3438,7 +3298,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_prov:used156" source="nid_prov:Activity" target="nid_prov:Entity">
+    <edge id="eid_prov:used152" source="nid_prov:Activity" target="nid_prov:Entity">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3449,7 +3309,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://www.geonames.org/ontology#alternateName157" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
+    <edge id="eid_https://www.geonames.org/ontology#alternateName153" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3460,7 +3320,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://www.geonames.org/ontology#locatedIn158" source="nid_owl:Thing" target="nid_https://www.geonames.org/ontology#Feature">
+    <edge id="eid_https://www.geonames.org/ontology#locatedIn154" source="nid_owl:Thing" target="nid_https://www.geonames.org/ontology#Feature">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3483,7 +3343,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_skos:semanticRelation159" source="nid_skos:Concept" target="nid_skos:Concept">
+    <edge id="eid_skos:semanticRelation155" source="nid_skos:Concept" target="nid_skos:Concept">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3506,7 +3366,7 @@
          </data>
          <data key="d1" />
       </node>
-    <edge id="eid_https://www.geonames.org/ontology#population160" source="nid_https://www.geonames.org/ontology#Feature" target="nid_xsd:integer">
+    <edge id="eid_https://www.geonames.org/ontology#population156" source="nid_https://www.geonames.org/ontology#Feature" target="nid_xsd:integer">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3517,7 +3377,18 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_https://www.geonames.org/ontology#long161" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
+    <edge id="eid_https://www.geonames.org/ontology#colloquialName157" source="nid_http://geovocab.org/spatial#Feature" target="nid_owl:Thing">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">https://www.geonames.org/ontology#colloquialName</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_https://www.geonames.org/ontology#long158" source="nid_https://www.geonames.org/ontology#Feature" target="nid_owl:Thing">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3528,7 +3399,29 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_http://purl.org/net/p-plan#isVariableOfPlan162" source="nid_http://purl.org/net/p-plan#Variable" target="nid_http://purl.org/net/p-plan#Plan">
+    <edge id="eid_http://w3id.org/def/coffeeontology#hasFarmingRegion159" source="nid_owl:Thing" target="nid_http://w3id.org/def/coffeeontology#coffea_farming_region">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">http://w3id.org/def/coffeeontology#hasFarmingRegion</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_http://qudt.org/schema/qudt/applicableUnit160" source="nid_owl:Thing" target="nid_https://qudt.org/schema/qudt/Unit">
+         <data key="d2">
+            <y:PolyLineEdge>
+               <y:LineStyle color="black" type="line" width="1.0" />
+               <y:Arrows source="none" target="normal" />
+               <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true">http://qudt.org/schema/qudt/applicableUnit</y:EdgeLabel>
+               <y:BendStyle smoothed="false" />
+            </y:PolyLineEdge>
+         </data>
+         <data key="d3" />
+      </edge>
+    <edge id="eid_http://purl.org/net/p-plan#isVariableOfPlan161" source="nid_http://purl.org/net/p-plan#Variable" target="nid_http://purl.org/net/p-plan#Plan">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3539,7 +3432,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_http://qudt.org/schema/qudt/hasQuantityKind163" source="nid_http://qudt.org/schema/qudt/Quantity" target="nid_http://qudt.org/schema/qudt/QuantityKind">
+    <edge id="eid_http://qudt.org/schema/qudt/hasQuantityKind162" source="nid_http://qudt.org/schema/qudt/Quantity" target="nid_http://qudt.org/schema/qudt/QuantityKind">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />
@@ -3550,7 +3443,7 @@
          </data>
          <data key="d3" />
       </edge>
-    <edge id="eid_http://purl.org/net/p-plan#isOutputVarOf164" source="nid_http://purl.org/net/p-plan#Variable" target="nid_http://purl.org/net/p-plan#Step">
+    <edge id="eid_http://purl.org/net/p-plan#isOutputVarOf163" source="nid_http://purl.org/net/p-plan#Variable" target="nid_http://purl.org/net/p-plan#Step">
          <data key="d2">
             <y:PolyLineEdge>
                <y:LineStyle color="black" type="line" width="1.0" />

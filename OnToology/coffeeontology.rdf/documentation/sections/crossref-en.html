@@ -106,12 +106,6 @@ This section provides details for each class and property defined by The Coffee 
          </a>
       </li>
       <li>
-         <a href="#http://w3id.org/def/coffeeontology#coffea_farming_region"
-            title="http://w3id.org/def/coffeeontology#coffea_farming_region">
-            <span>coffea farming region</span>
-         </a>
-      </li>
-      <li>
          <a href="#http://w3id.org/def/coffeeontology#coffee_production_plan"
             title="http://w3id.org/def/coffeeontology#coffee_production_plan">
             <span>coffee production plan</span>
@@ -209,7 +203,8 @@ This section provides details for each class and property defined by The Coffee 
          <a href="#http://purl.obolibrary.org/obo/NCBITaxon_forma" title="http://purl.obolibrary.org/obo/NCBITaxon_forma">forma</a>
       </li>
       <li>
-         <a href="#http://purl.obolibrary.org/obo/NCBITaxon_1968429" title="http://purl.obolibrary.org/obo/NCBITaxon_1968429">Gardenieae complex</a>
+         <a href="#http://purl.obolibrary.org/obo/NCBITaxon_1968429"
+            title="http://purl.obolibrary.org/obo/NCBITaxon_1968429">Gardenieae complex</a>
       </li>
       <li>
          <a href="#http://purl.obolibrary.org/obo/NCBITaxon_4055" title="http://purl.obolibrary.org/obo/NCBITaxon_4055">Gentianales</a>
@@ -300,11 +295,6 @@ This section provides details for each class and property defined by The Coffee 
          </a>
       </li>
       <li>
-         <a href="#http://w3id.org/def/coffeeontology#region_any" title="http://w3id.org/def/coffeeontology#region_any">
-            <span>region any</span>
-         </a>
-      </li>
-      <li>
          <a href="#http://w3id.org/def/coffeeontology#region_ecuatorial"
             title="http://w3id.org/def/coffeeontology#region_ecuatorial">
             <span>region ecuatorial</span>
@@ -315,6 +305,10 @@ This section provides details for each class and property defined by The Coffee 
             title="http://w3id.org/def/coffeeontology#region_subtropical">
             <span>region subtropical</span>
          </a>
+      </li>
+      <li>
+         <a href="#http://w3id.org/def/coffeeontology#coffea_farming_region"
+            title="http://w3id.org/def/coffeeontology#coffea_farming_region">Región de Cultivo de Cafetos</a>
       </li>
       <li>
          <a href="#http://purl.obolibrary.org/obo/NCBITaxon_kingdom"
@@ -480,6 +474,11 @@ This section provides details for each class and property defined by The Coffee 
                title="http://w3id.org/def/coffeeontology#cpp_percolado">Actividad Percolado</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://purl.org/net/p-plan#correspondsToStep" title="http://purl.org/net/p-plan#correspondsToStep">corresponds to step</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="http://w3id.org/def/coffeeontology#Altitude">
@@ -527,7 +526,8 @@ This section provides details for each class and property defined by The Coffee 
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#http://purl.obolibrary.org/obo/NCBITaxon_1968429" title="http://purl.obolibrary.org/obo/NCBITaxon_1968429">Gardenieae complex</a>
+            <a href="#http://purl.obolibrary.org/obo/NCBITaxon_1968429"
+               title="http://purl.obolibrary.org/obo/NCBITaxon_1968429">Gardenieae complex</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>has sub-classes</dt>
@@ -1024,27 +1024,6 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          </dd>
       </dl>
    </div>
-   <div class="entity" id="http://w3id.org/def/coffeeontology#coffea_farming_region">
-      <h3>coffea farming region<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://w3id.org/def/coffeeontology#coffea_farming_region</p>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd/>
-         <dt>has sub-classes</dt>
-         <dd>
-            <a href="#http://w3id.org/def/coffeeontology#region_any" title="http://w3id.org/def/coffeeontology#region_any">region any</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#http://w3id.org/def/coffeeontology#region_ecuatorial"
-               title="http://w3id.org/def/coffeeontology#region_ecuatorial">region ecuatorial</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#http://w3id.org/def/coffeeontology#region_subtropical"
-               title="http://w3id.org/def/coffeeontology#region_subtropical">region subtropical</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="http://w3id.org/def/coffeeontology#coffee_production_plan">
       <h3>coffee production plan<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -1300,6 +1279,11 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
                title="http://w3id.org/def/coffeeontology#cpp_bioentity">cpp bioentity</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://purl.org/net/p-plan#correspondsToVariable" title="http://purl.org/net/p-plan#correspondsToVariable">corresponds to variable</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="http://purl.obolibrary.org/obo/NCBITaxon_species">
@@ -1413,6 +1397,14 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          <dd>
             <a href="#https://www.geonames.org/ontology#Feature" title="https://www.geonames.org/ontology#Feature">Feature</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#https://www.geonames.org/ontology#colloquialName" title="https://www.geonames.org/ontology#colloquialName">colloquial name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.geonames.org/ontology#geonamesID" title="https://www.geonames.org/ontology#geonamesID">geonames identifier</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.geonames.org/ontology#historicalName" title="https://www.geonames.org/ontology#historicalName">historical name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">name</a>
+            <sup class="type-dp" title="data property">dp</sup>
          </dd>
       </dl>
    </div>
@@ -1623,7 +1615,8 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          </dd>
          <dt>has sub-classes</dt>
          <dd>
-            <a href="#http://purl.obolibrary.org/obo/NCBITaxon_1968429" title="http://purl.obolibrary.org/obo/NCBITaxon_1968429">Gardenieae complex</a>
+            <a href="#http://purl.obolibrary.org/obo/NCBITaxon_1968429"
+               title="http://purl.obolibrary.org/obo/NCBITaxon_1968429">Gardenieae complex</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -1766,6 +1759,11 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          <dd>
             <a href="#http://purl.obolibrary.org/obo/NCBITaxon_2759" title="http://purl.obolibrary.org/obo/NCBITaxon_2759">Eukaryota</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://w3id.org/def/coffeeontology#has_rank" title="http://w3id.org/def/coffeeontology#has_rank">has rank</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -1941,30 +1939,6 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          </dd>
       </dl>
    </div>
-   <div class="entity" id="http://w3id.org/def/coffeeontology#region_any">
-      <h3>region any<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://w3id.org/def/coffeeontology#region_any</p>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#http://w3id.org/def/coffeeontology#coffea_farming_region"
-               title="http://w3id.org/def/coffeeontology#coffea_farming_region">coffea farming region</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#http://w3id.org/def/coffeeontology#region_ecuatorial"
-               title="http://w3id.org/def/coffeeontology#region_ecuatorial">region ecuatorial</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#http://w3id.org/def/coffeeontology#region_subtropical"
-               title="http://w3id.org/def/coffeeontology#region_subtropical">region subtropical</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="http://w3id.org/def/coffeeontology#region_ecuatorial">
       <h3>region ecuatorial<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -1976,14 +1950,7 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          <dt>has super-classes</dt>
          <dd>
             <a href="#http://w3id.org/def/coffeeontology#coffea_farming_region"
-               title="http://w3id.org/def/coffeeontology#coffea_farming_region">coffea farming region</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#http://w3id.org/def/coffeeontology#region_any" title="http://w3id.org/def/coffeeontology#region_any">region any</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#http://w3id.org/def/coffeeontology#region_subtropical"
-               title="http://w3id.org/def/coffeeontology#region_subtropical">region subtropical</a>
+               title="http://w3id.org/def/coffeeontology#coffea_farming_region">Región de Cultivo de Cafetos</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -1999,15 +1966,40 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          <dt>has super-classes</dt>
          <dd>
             <a href="#http://w3id.org/def/coffeeontology#coffea_farming_region"
-               title="http://w3id.org/def/coffeeontology#coffea_farming_region">coffea farming region</a>
+               title="http://w3id.org/def/coffeeontology#coffea_farming_region">Región de Cultivo de Cafetos</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
-         <dt>is disjoint with</dt>
+      </dl>
+   </div>
+   <div class="entity" id="http://w3id.org/def/coffeeontology#coffea_farming_region">
+      <h3>Región de Cultivo de Cafetos<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/def/coffeeontology#coffea_farming_region</p>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>has sub-classes</dt>
          <dd>
-            <a href="#http://w3id.org/def/coffeeontology#region_any" title="http://w3id.org/def/coffeeontology#region_any">region any</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#http://w3id.org/def/coffeeontology#region_ecuatorial"
+            <a href="#http://w3id.org/def/coffeeontology#region_ecuatorial"
                title="http://w3id.org/def/coffeeontology#region_ecuatorial">region ecuatorial</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://w3id.org/def/coffeeontology#region_subtropical"
+               title="http://w3id.org/def/coffeeontology#region_subtropical">region subtropical</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://w3id.org/def/coffeeontology#hasFarmingRequirement"
+               title="http://w3id.org/def/coffeeontology#hasFarmingRequirement">has farming requirement</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#http://w3id.org/def/coffeeontology#hasFarmingRegion"
+               title="http://w3id.org/def/coffeeontology#hasFarmingRegion">has farming region</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -2160,7 +2152,8 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#http://purl.org/net/p-plan#isInputVarOf" title="http://purl.org/net/p-plan#isInputVarOf">isInputVarOf</a>
+            <a href="#http://purl.org/net/p-plan#correspondsToStep" title="http://purl.org/net/p-plan#correspondsToStep">corresponds to step</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://purl.org/net/p-plan#isInputVarOf" title="http://purl.org/net/p-plan#isInputVarOf">isInputVarOf</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://purl.org/net/p-plan#isOutputVarOf" title="http://purl.org/net/p-plan#isOutputVarOf">isOutputVarOf</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://purl.org/net/p-plan#isPrecededBy" title="http://purl.org/net/p-plan#isPrecededBy">isPrecededBy</a>
             <sup class="type-op" title="object property">op</sup>
@@ -2522,7 +2515,8 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://qudt.org/schema/qudt/hasUnit" title="https://qudt.org/schema/qudt/hasUnit">has unit</a>
+            <a href="#http://qudt.org/schema/qudt/applicableUnit" title="http://qudt.org/schema/qudt/applicableUnit">applicable unit</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://qudt.org/schema/qudt/hasUnit" title="https://qudt.org/schema/qudt/hasUnit">has unit</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -2551,7 +2545,8 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#http://purl.org/net/p-plan#hasInputVar" title="http://purl.org/net/p-plan#hasInputVar">hasInputVar</a>
+            <a href="#http://purl.org/net/p-plan#correspondsToVariable" title="http://purl.org/net/p-plan#correspondsToVariable">corresponds to variable</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#http://purl.org/net/p-plan#hasInputVar" title="http://purl.org/net/p-plan#hasInputVar">hasInputVar</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#http://purl.org/net/p-plan#hasOutputVar" title="http://purl.org/net/p-plan#hasOutputVar">hasOutputVar</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -2599,14 +2594,40 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
+         <a href="#http://qudt.org/schema/qudt/applicableUnit" title="http://qudt.org/schema/qudt/applicableUnit">
+            <span>applicable unit</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/net/p-plan#correspondsToStep" title="http://purl.org/net/p-plan#correspondsToStep">
+            <span>corresponds to step</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://purl.org/net/p-plan#correspondsToVariable" title="http://purl.org/net/p-plan#correspondsToVariable">
+            <span>corresponds to variable</span>
+         </a>
+      </li>
+      <li>
          <a href="#http://w3id.org/def/coffeeontology#hasFarmingRegion"
             title="http://w3id.org/def/coffeeontology#hasFarmingRegion">
             <span>has farming region</span>
          </a>
       </li>
       <li>
+         <a href="#http://w3id.org/def/coffeeontology#hasFarmingRequirement"
+            title="http://w3id.org/def/coffeeontology#hasFarmingRequirement">
+            <span>has farming requirement</span>
+         </a>
+      </li>
+      <li>
          <a href="#http://qudt.org/schema/qudt/hasQuantityKind" title="http://qudt.org/schema/qudt/hasQuantityKind">
             <span>has quantity kind</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://w3id.org/def/coffeeontology#has_rank" title="http://w3id.org/def/coffeeontology#has_rank">
+            <span>has rank</span>
          </a>
       </li>
       <li>
@@ -2672,6 +2693,67 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          </a>
       </li>
    </ul>
+   <div class="entity" id="http://qudt.org/schema/qudt/applicableUnit">
+      <h3>applicable unit<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://qudt.org/schema/qudt/applicableUnit</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://qudt.org/schema/qudt/Unit" title="https://qudt.org/schema/qudt/Unit">unit</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://purl.org/net/p-plan#correspondsToStep">
+      <h3>corresponds to step<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/net/p-plan#correspondsToStep</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/net/p-plan#Activity" title="http://purl.org/net/p-plan#Activity">activity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://purl.org/net/p-plan#Step" title="http://purl.org/net/p-plan#Step">step</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://purl.org/net/p-plan#correspondsToVariable">
+      <h3>corresponds to variable<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://purl.org/net/p-plan#correspondsToVariable</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://purl.org/net/p-plan#Entity" title="http://purl.org/net/p-plan#Entity">entity</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://purl.org/net/p-plan#Variable" title="http://purl.org/net/p-plan#Variable">variable</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="http://w3id.org/def/coffeeontology#hasFarmingRegion">
       <h3>has farming region<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -2686,6 +2768,30 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
                <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
                   target="_blank"
                   title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://w3id.org/def/coffeeontology#coffea_farming_region"
+                  title="http://w3id.org/def/coffeeontology#coffea_farming_region">Región de Cultivo de Cafetos</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://w3id.org/def/coffeeontology#hasFarmingRequirement">
+      <h3>has farming requirement<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/def/coffeeontology#hasFarmingRequirement</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://w3id.org/def/coffeeontology#coffea_farming_region"
+                  title="http://w3id.org/def/coffeeontology#coffea_farming_region">Región de Cultivo de Cafetos</a>
+               <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
@@ -2707,6 +2813,23 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
             <dt>has range</dt>
             <dd>
                <a href="#http://qudt.org/schema/qudt/QuantityKind" title="http://qudt.org/schema/qudt/QuantityKind">quantity kind</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://w3id.org/def/coffeeontology#has_rank">
+      <h3>has rank<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/def/coffeeontology#has_rank</p>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <a href="#http://purl.obolibrary.org/obo/NCBITaxon_131567" title="http://purl.obolibrary.org/obo/NCBITaxon_131567">organismos celulares</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -3278,6 +3401,11 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          <a href="#https://www.geonames.org/ontology#long" title="https://www.geonames.org/ontology#long">longitude</a>
       </li>
       <li>
+         <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">
+            <span>name</span>
+         </a>
+      </li>
+      <li>
          <a href="#https://www.geonames.org/ontology#name" title="https://www.geonames.org/ontology#name">name</a>
       </li>
       <li>
@@ -3334,6 +3462,11 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
                <a href="#https://www.geonames.org/ontology#alternateName" title="https://www.geonames.org/ontology#alternateName">alternate name</a>
                <sup class="type-dp" title="data property">dp</sup>
             </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://geovocab.org/spatial#Feature" title="http://geovocab.org/spatial#Feature">Feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
          </dl>
       </div>
    </div>
@@ -3353,6 +3486,11 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
                   title="http://purl.org/dc/terms/identifier">identifier</a>
                <sup class="type-dp" title="data property">dp</sup>
             </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://geovocab.org/spatial#Feature" title="http://geovocab.org/spatial#Feature">Feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
          </dl>
       </div>
    </div>
@@ -3369,6 +3507,11 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
             <dd>
                <a href="#https://www.geonames.org/ontology#alternateName" title="https://www.geonames.org/ontology#alternateName">alternate name</a>
                <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://geovocab.org/spatial#Feature" title="http://geovocab.org/spatial#Feature">Feature</a>
+               <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
@@ -3433,6 +3576,28 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
          </dl>
       </div>
    </div>
+   <div class="entity" id="http://xmlns.com/foaf/0.1/name">
+      <h3>name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xmlns.com/foaf/0.1/name</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#https://www.geonames.org/ontology#name" title="https://www.geonames.org/ontology#name">name</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://geovocab.org/spatial#Feature" title="http://geovocab.org/spatial#Feature">Feature</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://www.geonames.org/ontology#name">
       <h3>name<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -3445,6 +3610,11 @@ La calidad de su bebida hasta hace un tiempo se consideraba inferior  a la de lo
       </div>
       <div class="description">
          <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">name</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#https://www.geonames.org/ontology#Feature" title="https://www.geonames.org/ontology#Feature">Feature</a>
