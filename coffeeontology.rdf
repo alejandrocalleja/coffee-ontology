@@ -17,17 +17,17 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://w3id.org/def/coffeeontology">
-        <owl:versionIRI rdf:resource="http://w3id.org/def/coffeeontology/1.0.0"/>
-        <ns:License>https://creativecommons.org/licenses/by/4.0/</ns:License>
+        <owl:versionIRI rdf:resource="http://w3id.org/def/coffeeontology/1.0.1"/>
         <terms:contributor>Alejandro Calleja Herrador (version 1.0.0)</terms:contributor>
         <terms:creator>Alejandro Calleja Herrador</terms:creator>
-        <terms:description xml:lang="en">The Coffee Ontology provides elements for coffee classification, description of coffee creation processes and farming requirements and considerations.</terms:description>
+        <terms:description xml:lang="en">The Coffea Ontology provides elements for coffee classification, description of coffee creation processes and farming requirements and considerations.</terms:description>
         <terms:issued>2023-11-14</terms:issued>
-        <terms:title xml:lang="es">La Ontología del Café</terms:title>
-        <terms:title xml:lang="en">The Coffee Ontology</terms:title>
+        <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
+        <terms:title xml:lang="es">La Ontología del Cafeto</terms:title>
+        <terms:title xml:lang="en">The Coffea Ontology</terms:title>
         <vann:preferredNamespacePrefix>cfe</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://www.semanticweb.org/coffee-ontology#</vann:preferredNamespaceUri>
-        <owl:versionInfo>Version 1.0.0 - 2023-11-14</owl:versionInfo>
+        <owl:versionInfo>Version 1.0.1 - 2023-11-14</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -76,6 +76,12 @@
     <!-- http://purl.org/dc/terms/issued -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -194,13 +200,19 @@
 
     <!-- http://purl.org/net/p-plan#correspondsToStep -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/net/p-plan#correspondsToStep"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/net/p-plan#correspondsToStep">
+        <rdfs:domain rdf:resource="http://purl.org/net/p-plan#Activity"/>
+        <rdfs:range rdf:resource="http://purl.org/net/p-plan#Step"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.org/net/p-plan#correspondsToVariable -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/net/p-plan#correspondsToVariable"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/net/p-plan#correspondsToVariable">
+        <rdfs:domain rdf:resource="http://purl.org/net/p-plan#Entity"/>
+        <rdfs:range rdf:resource="http://purl.org/net/p-plan#Variable"/>
+    </owl:ObjectProperty>
     
 
 
@@ -319,7 +331,9 @@
 
     <!-- http://qudt.org/schema/qudt/applicableUnit -->
 
-    <owl:ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicableUnit"/>
+    <owl:ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicableUnit">
+        <rdfs:range rdf:resource="https://qudt.org/schema/qudt/Unit"/>
+    </owl:ObjectProperty>
     
 
 
@@ -345,19 +359,24 @@
 
     <owl:ObjectProperty rdf:about="http://w3id.org/def/coffeeontology#hasFarmingRegion">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="http://w3id.org/def/coffeeontology#coffea_farming_region"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://w3id.org/def/coffeeontology#hasFarmingRequirement -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/def/coffeeontology#hasFarmingRequirement"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/coffeeontology#hasFarmingRequirement">
+        <rdfs:domain rdf:resource="http://w3id.org/def/coffeeontology#coffea_farming_region"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://w3id.org/def/coffeeontology#has_rank -->
 
-    <owl:ObjectProperty rdf:about="http://w3id.org/def/coffeeontology#has_rank"/>
+    <owl:ObjectProperty rdf:about="http://w3id.org/def/coffeeontology#has_rank">
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_131567"/>
+    </owl:ObjectProperty>
     
 
 
@@ -425,12 +444,6 @@
     
 
 
-    <!-- https://www.geonames.org/ontology#featureClass -->
-
-    <owl:ObjectProperty rdf:about="https://www.geonames.org/ontology#featureClass"/>
-    
-
-
     <!-- https://www.geonames.org/ontology#locatedIn -->
 
     <owl:ObjectProperty rdf:about="https://www.geonames.org/ontology#locatedIn">
@@ -438,30 +451,6 @@
         <rdfs:comment xml:lang="en">Indicates that the subject resource is located in the object feature</rdfs:comment>
         <rdfs:label xml:lang="en">located in</rdfs:label>
     </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.geonames.org/ontology#parentADM1 -->
-
-    <owl:ObjectProperty rdf:about="https://www.geonames.org/ontology#parentADM1"/>
-    
-
-
-    <!-- https://www.geonames.org/ontology#parentADM2 -->
-
-    <owl:ObjectProperty rdf:about="https://www.geonames.org/ontology#parentADM2"/>
-    
-
-
-    <!-- https://www.geonames.org/ontology#parentADM3 -->
-
-    <owl:ObjectProperty rdf:about="https://www.geonames.org/ontology#parentADM3"/>
-    
-
-
-    <!-- https://www.geonames.org/ontology#parentADM4 -->
-
-    <owl:ObjectProperty rdf:about="https://www.geonames.org/ontology#parentADM4"/>
     
 
 
@@ -496,7 +485,10 @@
 
     <!-- http://xmlns.com/foaf/0.1/name -->
 
-    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name">
+        <owl:equivalentProperty rdf:resource="https://www.geonames.org/ontology#name"/>
+        <rdfs:domain rdf:resource="http://geovocab.org/spatial#Feature"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -512,6 +504,7 @@
 
     <owl:DatatypeProperty rdf:about="https://www.geonames.org/ontology#colloquialName">
         <rdfs:subPropertyOf rdf:resource="https://www.geonames.org/ontology#alternateName"/>
+        <rdfs:domain rdf:resource="http://geovocab.org/spatial#Feature"/>
         <rdfs:label xml:lang="en">colloquial name</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -532,6 +525,7 @@
 
     <owl:DatatypeProperty rdf:about="https://www.geonames.org/ontology#geonamesID">
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/identifier"/>
+        <rdfs:domain rdf:resource="http://geovocab.org/spatial#Feature"/>
         <rdfs:label xml:lang="en">geonames identifier</rdfs:label>
         <skos:historyNote xml:lang="en">Added in version 3.1</skos:historyNote>
     </owl:DatatypeProperty>
@@ -542,6 +536,7 @@
 
     <owl:DatatypeProperty rdf:about="https://www.geonames.org/ontology#historicalName">
         <rdfs:subPropertyOf rdf:resource="https://www.geonames.org/ontology#alternateName"/>
+        <rdfs:domain rdf:resource="http://geovocab.org/spatial#Feature"/>
         <rdfs:label xml:lang="en">historical name</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -2042,6 +2037,7 @@ A quantity is distinguished from a &quot;quantity kind&quot; in that the former 
                 <owl:someValuesFrom rdf:resource="http://w3id.org/def/coffeeontology#coffea_farming_country"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label xml:lang="es">Región de Cultivo de Cafetos</rdfs:label>
     </owl:Class>
     
 
@@ -2208,14 +2204,6 @@ A quantity is distinguished from a &quot;quantity kind&quot; in that the former 
     
 
 
-    <!-- http://w3id.org/def/coffeeontology#region_any -->
-
-    <owl:Class rdf:about="http://w3id.org/def/coffeeontology#region_any">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/def/coffeeontology#coffea_farming_region"/>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/def/coffeeontology#region_ecuatorial -->
 
     <owl:Class rdf:about="http://w3id.org/def/coffeeontology#region_ecuatorial">
@@ -2300,36 +2288,6 @@ A quantity is distinguished from a &quot;quantity kind&quot; in that the former 
         <rdfs:subClassOf rdf:resource="https://www.geonames.org/ontology#Feature"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#featureClass"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#parentADM1"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#parentADM2"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#parentADM3"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.geonames.org/ontology#parentADM4"/>
-                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://www.geonames.org/ontology#geonamesID"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
@@ -2369,10 +2327,10 @@ A quantity is distinguished from a &quot;quantity kind&quot; in that the former 
         <skos:historyNote xml:lang="en">Added in version 3.1</skos:historyNote>
     </owl:Class>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
     </rdf:Description>
     <rdf:Description>
-        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</owl:qualifiedCardinality>
+        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
     </rdf:Description>
     
 
@@ -2392,14 +2350,6 @@ A quantity is distinguished from a &quot;quantity kind&quot; in that the former 
             <rdf:Description rdf:about="http://w3id.org/def/coffeeontology#Coffee_Kouilloi"/>
             <rdf:Description rdf:about="http://w3id.org/def/coffeeontology#Coffee_Niaouli"/>
             <rdf:Description rdf:about="http://w3id.org/def/coffeeontology#Coffee_Uganda"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://w3id.org/def/coffeeontology#region_any"/>
-            <rdf:Description rdf:about="http://w3id.org/def/coffeeontology#region_ecuatorial"/>
-            <rdf:Description rdf:about="http://w3id.org/def/coffeeontology#region_subtropical"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
