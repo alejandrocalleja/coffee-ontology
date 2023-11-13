@@ -69,6 +69,9 @@
     "NCBITaxon_subclass" : {
       "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_subclass"
     },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
     "hasExactSynonym" : {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
     },
@@ -89,9 +92,6 @@
     },
     "NCBITaxon_series" : {
       "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_series"
-    },
-    "Thing" : {
-      "@id" : "http://www.w3.org/2002/07/owl#Thing"
     },
     "MultiStep" : {
       "@id" : "http://purl.org/net/p-plan#MultiStep"
@@ -129,10 +129,6 @@
     },
     "GeonamesFeature" : {
       "@id" : "https://www.geonames.org/ontology#GeonamesFeature"
-    },
-    "parentADM1" : {
-      "@id" : "https://www.geonames.org/ontology#parentADM1",
-      "@type" : "@id"
     },
     "long" : {
       "@id" : "https://www.geonames.org/ontology#long"
@@ -182,9 +178,6 @@
     "cpp_variable" : {
       "@id" : "http://w3id.org/def/coffeeontology#cpp_variable"
     },
-    "region_any" : {
-      "@id" : "http://w3id.org/def/coffeeontology#region_any"
-    },
     "used" : {
       "@id" : "http://www.w3.org/ns/prov#used",
       "@type" : "@id"
@@ -201,10 +194,6 @@
     "cpp_bioentity_coffee" : {
       "@id" : "http://w3id.org/def/coffeeontology#cpp_bioentity_coffee"
     },
-    "parentADM2" : {
-      "@id" : "https://www.geonames.org/ontology#parentADM2",
-      "@type" : "@id"
-    },
     "cpp_step_initial" : {
       "@id" : "http://w3id.org/def/coffeeontology#cpp_step_initial"
     },
@@ -219,10 +208,6 @@
     },
     "NCBITaxon_superkingdom" : {
       "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_superkingdom"
-    },
-    "featureClass" : {
-      "@id" : "https://www.geonames.org/ontology#featureClass",
-      "@type" : "@id"
     },
     "NCBITaxon_kingdom" : {
       "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_kingdom"
@@ -308,10 +293,6 @@
     "geonamesID" : {
       "@id" : "https://www.geonames.org/ontology#geonamesID"
     },
-    "parentADM4" : {
-      "@id" : "https://www.geonames.org/ontology#parentADM4",
-      "@type" : "@id"
-    },
     "Coffee_Kouilloi" : {
       "@id" : "http://w3id.org/def/coffeeontology#Coffee_Kouilloi"
     },
@@ -385,10 +366,6 @@
     },
     "NCBITaxon_1968429" : {
       "@id" : "http://purl.obolibrary.org/obo/NCBITaxon_1968429"
-    },
-    "parentADM3" : {
-      "@id" : "https://www.geonames.org/ontology#parentADM3",
-      "@type" : "@id"
     },
     "hasSynonymType" : {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType"
